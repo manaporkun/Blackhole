@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.9.6\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.9.6\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
+  <Import Project="..\packages\Microsoft.NetFramework.Analyzers.2.9.6\build\Microsoft.NetFramework.Analyzers.props" Condition="Exists('..\packages\Microsoft.NetFramework.Analyzers.2.9.6\build\Microsoft.NetFramework.Analyzers.props')" />
+  <Import Project="..\packages\Microsoft.NetCore.Analyzers.2.9.6\build\Microsoft.NetCore.Analyzers.props" Condition="Exists('..\packages\Microsoft.NetCore.Analyzers.2.9.6\build\Microsoft.NetCore.Analyzers.props')" />
+  <Import Project="..\packages\Microsoft.CodeQuality.Analyzers.2.9.6\build\Microsoft.CodeQuality.Analyzers.props" Condition="Exists('..\packages\Microsoft.CodeQuality.Analyzers.2.9.6\build\Microsoft.CodeQuality.Analyzers.props')" />
+  <Import Project="..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.6\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props" Condition="Exists('..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.6\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props')" />
+  <Import Project="..\packages\SQLite.3.13.0\build\net45\SQLite.props" Condition="Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C530B454-A718-497F-985A-B2ACF1353310}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Techonology_Market_Management_System</RootNamespace>
+    <AssemblyName>Techonology Market Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.2.0.325, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.2.0\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.6.0.325, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.6.0\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.111.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.111.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.111.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.111.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.111.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.111.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\CartClass.cs" />
+    <Compile Include="Classes\DataAccess.cs" />
+    <Compile Include="Forms\Compare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Compare.Designer.cs">
+      <DependentUpon>Compare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Home2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Home2.Designer.cs">
+      <DependentUpon>Home2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\RealCart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\RealCart.Designer.cs">
+      <DependentUpon>RealCart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Person.cs" />
+    <Compile Include="Classes\Product.cs" />
+    <Compile Include="Forms\Admin Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Admin Panel.Designer.cs">
+      <DependentUpon>Admin Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Cart.Designer.cs">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Edit Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Edit Employees.Designer.cs">
+      <DependentUpon>Edit Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Edit Computers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Edit Computers.Designer.cs">
+      <DependentUpon>Edit Computers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Edit MusicBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Edit MusicBook.Designer.cs">
+      <DependentUpon>Edit MusicBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Edit SmartPhones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Edit SmartPhones.Designer.cs">
+      <DependentUpon>Edit SmartPhones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Edit Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Edit Users.Designer.cs">
+      <DependentUpon>Edit Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PaymentDelivery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PaymentDelivery.Designer.cs">
+      <DependentUpon>PaymentDelivery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TMMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TMMS.Designer.cs">
+      <DependentUpon>TMMS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UserInformations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserInformations.Designer.cs">
+      <DependentUpon>UserInformations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Search.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Search.Designer.cs">
+      <DependentUpon>Search.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\Compare.resx">
+      <DependentUpon>Compare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Edit SmartPhones.resx">
+      <DependentUpon>Edit SmartPhones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Home2.resx">
+      <DependentUpon>Home2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\RealCart.resx">
+      <DependentUpon>RealCart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Admin Panel.resx">
+      <DependentUpon>Admin Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Cart.resx">
+      <DependentUpon>Cart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Edit Employees.resx">
+      <DependentUpon>Edit Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Edit Computers.resx">
+      <DependentUpon>Edit Computers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Edit MusicBook.resx">
+      <DependentUpon>Edit MusicBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Edit Users.resx">
+      <DependentUpon>Edit Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PaymentDelivery.resx">
+      <DependentUpon>PaymentDelivery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TMMS.resx">
+      <DependentUpon>TMMS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserInformations.resx">
+      <DependentUpon>UserInformations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Search.resx">
+      <DependentUpon>Search.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include=".editorconfig" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.6\analyzers\dotnet\cs\Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.6\analyzers\dotnet\Microsoft.CodeAnalysis.VersionCheckAnalyzer.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeQuality.Analyzers.2.9.6\analyzers\dotnet\cs\Humanizer.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeQuality.Analyzers.2.9.6\analyzers\dotnet\cs\Microsoft.CodeQuality.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.CodeQuality.Analyzers.2.9.6\analyzers\dotnet\cs\Microsoft.CodeQuality.CSharp.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.NetCore.Analyzers.2.9.6\analyzers\dotnet\cs\Microsoft.NetCore.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.NetCore.Analyzers.2.9.6\analyzers\dotnet\cs\Microsoft.NetCore.CSharp.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.6\analyzers\dotnet\cs\Microsoft.NetFramework.Analyzers.dll" />
+    <Analyzer Include="..\packages\Microsoft.NetFramework.Analyzers.2.9.6\analyzers\dotnet\cs\Microsoft.NetFramework.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shelves.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\547869-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\black-hole-logo31417.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-account-icon-0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password-icon-png-5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-account-icon-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\126467.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email-us.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email-us1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-account-icon-02.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\token-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email-us2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password-icon-png-51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f0a4170e43fae6a84ff990b6df105199.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\global-business-international-07-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44386.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone_Line-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_black_216x216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_black_216x2161.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1484667.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\media_multimedia_audio_video_music_-_36-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OriginalPng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\macOS-Mojave-wallpaper-splash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ge63-raider-20180110-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watch_s5_851x373_v2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_7.jpg" />
+    <None Include="Resources\1264671.png" />
+    <None Include="Resources\14846671.png" />
+    <None Include="Resources\arq-menu-512.png" />
+    <None Include="Resources\arq-menu-5121.png" />
+    <None Include="Resources\1019_d_u_x_851x373_sahane_cuma.jpg" />
+    <None Include="Resources\1264672.png" />
+    <None Include="Resources\14846672.png" />
+    <None Include="Resources\arq-menu-5122.png" />
+    <None Include="Resources\1264673.png" />
+    <None Include="Resources\1264674.png" />
+    <Content Include="Resources\Artboard_49_512.png" />
+    <None Include="Resources\computer-21.png" />
+    <None Include="Resources\computer-22.png" />
+    <None Include="Resources\bl_1504_phone_cellphone_smartphone_device_gadget_mobile_electronic-512.png" />
+    <None Include="Resources\b1.jpg" />
+    <None Include="Resources\b2.jpg" />
+    <None Include="Resources\b3.jpg" />
+    <None Include="Resources\b5.jpg" />
+    <None Include="Resources\compare_balance-512.png" />
+    <None Include="Resources\compare-icon-5.png" />
+    <None Include="Resources\c1.png" />
+    <None Include="Resources\c11.png" />
+    <Content Include="Resources\computer_2.png" />
+    <None Include="Resources\Elektronik-Firsatlari-1140x290.jpg" />
+    <None Include="Resources\email-us3.png" />
+    <Content Include="Resources\email_us.png" />
+    <Content Include="Resources\f0a4170e43fae6a84ff990b6df1051991.png" />
+    <None Include="Resources\free-account-icon-03.jpg" />
+    <None Include="Resources\flashsale.jpg" />
+    <Content Include="Resources\free_account_icon_0.jpg" />
+    <None Include="Resources\ge63-raider-20180110-11.png" />
+    <Content Include="Resources\ge63_raider_20180110_1.png" />
+    <Content Include="Resources\global_business_international_07_512.png" />
+    <Content Include="Resources\hd4.jpg" />
+    <None Include="Resources\home.png" />
+    <None Include="Resources\home2.png" />
+    <None Include="Resources\indir.png" />
+    <Content Include="Resources\kasim_kitap_851x373_rev.png" />
+    <Content Include="Resources\login_form_design_04.jpg" />
+    <Content Include="Resources\login_form_design_05.jpg" />
+    <Content Include="Resources\login_form_design_06.jpg" />
+    <Content Include="Resources\login_form_design_11.jpg" />
+    <Content Include="Resources\login_form_design_14.jpg" />
+    <Content Include="Resources\login_form_design_23.jpg" />
+    <None Include="Resources\macOS-Mojave-wallpaper-splash1.png" />
+    <Content Include="Resources\macOS_Mojave_wallpaper_splash.png" />
+    <None Include="Resources\media_multimedia_audio_video_music_-_36-5121.png" />
+    <None Include="Resources\media_multimedia_audio_video_music_-_36-5122.png" />
+    <Content Include="Resources\media_multimedia_audio_video_music___36_512.png" />
+    <Content Include="Resources\OriginalPng1.png" />
+    <None Include="Resources\OriginalPng2.png" />
+    <None Include="Resources\password-icon-png-52.jpg" />
+    <None Include="Resources\p3.jpg" />
+    <None Include="Resources\p4.jpg" />
+    <None Include="Resources\p1.jpg" />
+    <None Include="Resources\p2.jpg" />
+    <None Include="Resources\p1.png" />
+    <Content Include="Resources\password_icon_png_5.jpg" />
+    <None Include="Resources\Phone_Line-5121.png" />
+    <None Include="Resources\phone-icon.png" />
+    <Content Include="Resources\Phone_Line_512.png" />
+    <None Include="Resources\refresh.png" />
+    <Content Include="Resources\search_black_216x2162.png" />
+    <None Include="Resources\shopping-cart-5121.png" />
+    <None Include="Resources\search_black_216x2163.png" />
+    <None Include="Resources\shopping-cart-5122.png" />
+    <Content Include="Resources\shopping_cart_512.png" />
+    <None Include="Resources\TeoriV2-104989_small.jpg" />
+    <None Include="Resources\token-5121.png" />
+    <Content Include="Resources\token_512.png" />
+    <Content Include="Resources\watch_s5_851x373_v21.png" />
+    <None Include="Resources\xiaomi_huawei_851x373_v3.png" />
+    <Content Include="Resources\_1119_d_u_x_273x313_panama_yayincilik.jpg" />
+    <Content Include="Resources\_126467.png" />
+    <Content Include="Resources\_1484667.png" />
+    <Content Include="Resources\_2ea79bacdef6fea7a18e10d877ef5a34.jpg" />
+    <Content Include="Resources\_44386.png" />
+    <Content Include="Resources\_5a2bf83069da9_thumb900.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SQLite.3.13.0\build\net45\SQLite.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLite.3.13.0\build\net45\SQLite.props'))" />
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.6\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.6\build\Microsoft.CodeAnalysis.VersionCheckAnalyzer.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeQuality.Analyzers.2.9.6\build\Microsoft.CodeQuality.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeQuality.Analyzers.2.9.6\build\Microsoft.CodeQuality.Analyzers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.NetCore.Analyzers.2.9.6\build\Microsoft.NetCore.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NetCore.Analyzers.2.9.6\build\Microsoft.NetCore.Analyzers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.NetFramework.Analyzers.2.9.6\build\Microsoft.NetFramework.Analyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NetFramework.Analyzers.2.9.6\build\Microsoft.NetFramework.Analyzers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.9.6\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeAnalysis.FxCopAnalyzers.2.9.6\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props'))" />
+  </Target>
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets')" />
+</Project>

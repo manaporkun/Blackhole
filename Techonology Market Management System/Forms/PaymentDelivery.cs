@@ -24,7 +24,7 @@ namespace Techonology_Market_Management_System
         public PaymentDelivery()
         {
             InitializeComponent();
-
+            label12.Text = "";
         }
 
         public static void TakeEmail(string mail)
@@ -36,36 +36,51 @@ namespace Techonology_Market_Management_System
         {
             try
             {
-                if (dataGridView1.Rows.Count < 1) return;
+                string name1 = tName.Text.Trim();
+                string card_number = maskedTextBox1.Text.Trim();
+                string expire_date = maskedTextBox2.Text.Trim();
+                string ccv = maskedTextBox3.Text.Trim();
 
-                for (int i = 0; i < dataGridView1.RowCount; i++)
+                if(name1.Length == 0 || card_number.Length != 14 || expire_date.Length != 5 || ccv.Length != 3)
                 {
-                    string name = dataGridView1.Rows[i].Cells[0].Value.ToString();
-                    string category = dataGridView1.Rows[i].Cells[3].Value.ToString();
-                    int number = int.Parse(dataGridView1.Rows[i].Cells[2].Value.ToString());
-                    int current_stock = int.Parse(product.GetByName(name, category).Rows[0][3].ToString());
-
-                    product.UpdatePiece(name, current_stock - number, category);
+                    label12.Text = "Please enter informations correctly";
                     
                 }
-
-              
-
-
-                MessageBox.Show("Your order has been received. Thank you");
-
-                for (int i = 0; i < dataGridView1.RowCount; i++)
+                else
                 {
-                    string name = dataGridView1.Rows[i].Cells[0].Value.ToString();
-                    cc.Delete(phonenumber, name);
-                }
+                    if (dataGridView1.Rows.Count < 1) return;
 
-                //this.Visible = false;
-                printPreviewDialog1.Document = printDocument1;
-                printPreviewDialog1.ShowDialog();
-                //this.Visible = true;
+                    for (int i = 0; i < dataGridView1.RowCount; i++)
+                    {
+                        string name = dataGridView1.Rows[i].Cells[0].Value.ToString();
+                        string category = dataGridView1.Rows[i].Cells[3].Value.ToString();
+                        int number = int.Parse(dataGridView1.Rows[i].Cells[2].Value.ToString());
+                        int current_stock = int.Parse(product.GetByName(name, category).Rows[0][3].ToString());
+
+                        product.UpdatePiece(name, current_stock - number, category);
+
+                    }
+
+
+
+
+                    MessageBox.Show("Your order has been received. Thank you");
+
+                    for (int i = 0; i < dataGridView1.RowCount; i++)
+                    {
+                        string name = dataGridView1.Rows[i].Cells[0].Value.ToString();
+                        cc.Delete(phonenumber, name);
+                    }
+
+                    //this.Visible = false;
+                    printPreviewDialog1.Document = printDocument1;
+                    printPreviewDialog1.ShowDialog();
+                    //this.Visible = true;
+
+                    PaymentDelivery_Load(sender, e);
+                    label12.Text = "";
+                }
                 
-                PaymentDelivery_Load(sender, e);
             }
             catch(Exception ex)
             {

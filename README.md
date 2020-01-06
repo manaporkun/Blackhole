@@ -1,8 +1,8 @@
 # Technology-Market-Management-System
 
-Technology Market Management system programmed on Visual Studio with C # programming language.
+Technology Market Management system programmed on Visual Studio with C # programming language. A management system that allows the shopping center based on technology to perform both user and administrator operations.
 
-This project was ranked 3rd in the C # project competition in which the students of Computer Engineering and Software Engineering participated in Istanbul Sabahattin Zaim University.
+In the C # project competition organized under the Visual Programming course of the Software Engineering and Computer Engineering students of Istanbul Sabahattin Zaim University, where students can participate individually or as a group, I have developed  "Technology Market Management" by myself. This project was ranked 3rd.
 
 ![](main.png)
 ![](register.png)

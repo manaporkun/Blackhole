@@ -10,4 +10,4 @@ In the C # project competition organized under the Visual Programming course of 
 ![](home.png)
 ![](compare.png)
 
-Note : The visuals do not belong to me.
+Note : The visuals in the project, do not belong to me.

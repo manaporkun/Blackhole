@@ -83,69 +83,9 @@ namespace Techonology_Market_Management_System.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap _1264671 {
-            get {
-                object obj = ResourceManager.GetObject("1264671", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1264672 {
-            get {
-                object obj = ResourceManager.GetObject("1264672", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1264673 {
-            get {
-                object obj = ResourceManager.GetObject("1264673", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap _14846671 {
-            get {
-                object obj = ResourceManager.GetObject("14846671", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap _14846672 {
-            get {
-                object obj = ResourceManager.GetObject("14846672", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
         internal static System.Drawing.Bitmap _2 {
             get {
                 object obj = ResourceManager.GetObject("_2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap _2ea79bacdef6fea7a18e10d877ef5a34 {
-            get {
-                object obj = ResourceManager.GetObject("_2ea79bacdef6fea7a18e10d877ef5a34", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,26 +123,6 @@ namespace Techonology_Market_Management_System.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap _547869_200 {
-            get {
-                object obj = ResourceManager.GetObject("547869-200", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap _5a2bf83069da9_thumb900 {
-            get {
-                object obj = ResourceManager.GetObject("_5a2bf83069da9_thumb900", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
         internal static System.Drawing.Bitmap _6 {
             get {
                 object obj = ResourceManager.GetObject("_6", resourceCulture);
@@ -216,46 +136,6 @@ namespace Techonology_Market_Management_System.Properties {
         internal static System.Drawing.Bitmap _7 {
             get {
                 object obj = ResourceManager.GetObject("_7", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap arq_menu_512 {
-            get {
-                object obj = ResourceManager.GetObject("arq-menu-512", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap arq_menu_5121 {
-            get {
-                object obj = ResourceManager.GetObject("arq-menu-5121", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap arq_menu_5122 {
-            get {
-                object obj = ResourceManager.GetObject("arq-menu-5122", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap Artboard_49_512 {
-            get {
-                object obj = ResourceManager.GetObject("Artboard_49_512", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -303,9 +183,29 @@ namespace Techonology_Market_Management_System.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap bl_1504_phone_cellphone_smartphone_device_gadget_mobile_electronic_512 {
+        internal static System.Drawing.Bitmap baseline_person_black_48dp {
             get {
-                object obj = ResourceManager.GetObject("bl_1504_phone_cellphone_smartphone_device_gadget_mobile_electronic-512", resourceCulture);
+                object obj = ResourceManager.GetObject("baseline_person_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_person_black_48dp1 {
+            get {
+                object obj = ResourceManager.GetObject("baseline_person_black_48dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap baseline_smartphone_black_48dp {
+            get {
+                object obj = ResourceManager.GetObject("baseline_smartphone_black_48dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -326,26 +226,6 @@ namespace Techonology_Market_Management_System.Properties {
         internal static System.Drawing.Bitmap c1 {
             get {
                 object obj = ResourceManager.GetObject("c1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap c11 {
-            get {
-                object obj = ResourceManager.GetObject("c11", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap c12 {
-            get {
-                object obj = ResourceManager.GetObject("c12", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -383,139 +263,9 @@ namespace Techonology_Market_Management_System.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap cart {
-            get {
-                object obj = ResourceManager.GetObject("cart", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap compare_balance_512 {
-            get {
-                object obj = ResourceManager.GetObject("compare_balance-512", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap compare_icon_5 {
-            get {
-                object obj = ResourceManager.GetObject("compare-icon-5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap computer_21 {
-            get {
-                object obj = ResourceManager.GetObject("computer-21", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap computer_22 {
-            get {
-                object obj = ResourceManager.GetObject("computer-22", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap email_us1 {
-            get {
-                object obj = ResourceManager.GetObject("email-us1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap email_us2 {
-            get {
-                object obj = ResourceManager.GetObject("email-us2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap email_us3 {
-            get {
-                object obj = ResourceManager.GetObject("email-us3", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap f0a4170e43fae6a84ff990b6df105199 {
-            get {
-                object obj = ResourceManager.GetObject("f0a4170e43fae6a84ff990b6df105199", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap f0a4170e43fae6a84ff990b6df1051991 {
-            get {
-                object obj = ResourceManager.GetObject("f0a4170e43fae6a84ff990b6df1051991", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
         internal static System.Drawing.Bitmap flashsale {
             get {
                 object obj = ResourceManager.GetObject("flashsale", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap free_account_icon_01 {
-            get {
-                object obj = ResourceManager.GetObject("free-account-icon-01", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap free_account_icon_02 {
-            get {
-                object obj = ResourceManager.GetObject("free-account-icon-02", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap free_account_icon_03 {
-            get {
-                object obj = ResourceManager.GetObject("free-account-icon-03", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -543,116 +293,6 @@ namespace Techonology_Market_Management_System.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap home {
-            get {
-                object obj = ResourceManager.GetObject("home", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap home2 {
-            get {
-                object obj = ResourceManager.GetObject("home2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap images {
-            get {
-                object obj = ResourceManager.GetObject("images", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap indir {
-            get {
-                object obj = ResourceManager.GetObject("indir", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap login_form_design_04 {
-            get {
-                object obj = ResourceManager.GetObject("login_form_design_04", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap login_form_design_05 {
-            get {
-                object obj = ResourceManager.GetObject("login_form_design_05", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap login_form_design_06 {
-            get {
-                object obj = ResourceManager.GetObject("login_form_design_06", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap login_form_design_11 {
-            get {
-                object obj = ResourceManager.GetObject("login_form_design_11", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap login_form_design_14 {
-            get {
-                object obj = ResourceManager.GetObject("login_form_design_14", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap login_form_design_23 {
-            get {
-                object obj = ResourceManager.GetObject("login_form_design_23", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap logo {
-            get {
-                object obj = ResourceManager.GetObject("logo", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
         internal static System.Drawing.Bitmap macOS_Mojave_wallpaper_splash {
             get {
                 object obj = ResourceManager.GetObject("macOS-Mojave-wallpaper-splash", resourceCulture);
@@ -666,26 +306,6 @@ namespace Techonology_Market_Management_System.Properties {
         internal static System.Drawing.Bitmap macOS_Mojave_wallpaper_splash1 {
             get {
                 object obj = ResourceManager.GetObject("macOS-Mojave-wallpaper-splash1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap media_multimedia_audio_video_music___36_5121 {
-            get {
-                object obj = ResourceManager.GetObject("media_multimedia_audio_video_music_-_36-5121", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap media_multimedia_audio_video_music___36_5122 {
-            get {
-                object obj = ResourceManager.GetObject("media_multimedia_audio_video_music_-_36-5122", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -713,9 +333,9 @@ namespace Techonology_Market_Management_System.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap p1 {
+        internal static System.Drawing.Bitmap outline_alternate_email_black_48dp {
             get {
-                object obj = ResourceManager.GetObject("p1", resourceCulture);
+                object obj = ResourceManager.GetObject("outline_alternate_email_black_48dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -723,9 +343,219 @@ namespace Techonology_Market_Management_System.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap p11 {
+        internal static System.Drawing.Bitmap outline_alternate_email_black_48dp1 {
             get {
-                object obj = ResourceManager.GetObject("p11", resourceCulture);
+                object obj = ResourceManager.GetObject("outline_alternate_email_black_48dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_alternate_email_black_48dp2 {
+            get {
+                object obj = ResourceManager.GetObject("outline_alternate_email_black_48dp2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_book_white_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_book_white_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_cake_black_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_cake_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_compare_arrows_white_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_compare_arrows_white_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_computer_black_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_computer_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_computer_white_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_computer_white_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_home_white_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_home_white_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_location_on_black_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_location_on_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_location_on_black_48dp1 {
+            get {
+                object obj = ResourceManager.GetObject("outline_location_on_black_48dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_lock_black_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_lock_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_lock_black_48dp1 {
+            get {
+                object obj = ResourceManager.GetObject("outline_lock_black_48dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_lock_black_48dp2 {
+            get {
+                object obj = ResourceManager.GetObject("outline_lock_black_48dp2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_perm_identity_black_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_perm_identity_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_phone_black_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_phone_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_phone_black_48dp1 {
+            get {
+                object obj = ResourceManager.GetObject("outline_phone_black_48dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_search_white_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_search_white_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_shopping_cart_white_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_shopping_cart_white_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_smartphone_white_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_smartphone_white_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_smartphone_white_48dp1 {
+            get {
+                object obj = ResourceManager.GetObject("outline_smartphone_white_48dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap outline_wc_black_48dp {
+            get {
+                object obj = ResourceManager.GetObject("outline_wc_black_48dp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap p1 {
+            get {
+                object obj = ResourceManager.GetObject("p1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -763,9 +593,9 @@ namespace Techonology_Market_Management_System.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap password_icon_png_51 {
+        internal static System.Drawing.Bitmap twotone_exit_to_app_white_48dp {
             get {
-                object obj = ResourceManager.GetObject("password-icon-png-51", resourceCulture);
+                object obj = ResourceManager.GetObject("twotone_exit_to_app_white_48dp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -773,139 +603,9 @@ namespace Techonology_Market_Management_System.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
-        internal static System.Drawing.Bitmap password_icon_png_52 {
+        internal static System.Drawing.Bitmap twotone_exit_to_app_white_48dp1 {
             get {
-                object obj = ResourceManager.GetObject("password-icon-png-52", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap phone_icon {
-            get {
-                object obj = ResourceManager.GetObject("phone-icon", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap Phone_Line_5121 {
-            get {
-                object obj = ResourceManager.GetObject("Phone_Line-5121", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap refresh {
-            get {
-                object obj = ResourceManager.GetObject("refresh", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap search {
-            get {
-                object obj = ResourceManager.GetObject("search", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap search_black_216x216 {
-            get {
-                object obj = ResourceManager.GetObject("search_black_216x216", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap search_black_216x2161 {
-            get {
-                object obj = ResourceManager.GetObject("search_black_216x2161", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap search_black_216x2162 {
-            get {
-                object obj = ResourceManager.GetObject("search_black_216x2162", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap search_black_216x2163 {
-            get {
-                object obj = ResourceManager.GetObject("search_black_216x2163", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap shelves {
-            get {
-                object obj = ResourceManager.GetObject("shelves", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap shopping_cart_5121 {
-            get {
-                object obj = ResourceManager.GetObject("shopping-cart-5121", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap shopping_cart_5122 {
-            get {
-                object obj = ResourceManager.GetObject("shopping-cart-5122", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap token_5121 {
-            get {
-                object obj = ResourceManager.GetObject("token-5121", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
-        /// </summary>
-        internal static System.Drawing.Bitmap user {
-            get {
-                object obj = ResourceManager.GetObject("user", resourceCulture);
+                object obj = ResourceManager.GetObject("twotone_exit_to_app_white_48dp1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

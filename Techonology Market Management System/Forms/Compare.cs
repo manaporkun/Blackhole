@@ -241,8 +241,8 @@ namespace Techonology_Market_Management_System.Forms
             selection = "Computers";
             dataGridView1.Columns.Clear();
             dataGridView1.DataSource = comp.GetShort();
-            c1picture.Image = Techonology_Market_Management_System.Properties.Resources.c11;
-            pictureBox4.Image = Techonology_Market_Management_System.Properties.Resources.c11;
+            c1picture.Image = Techonology_Market_Management_System.Properties.Resources.outline_computer_black_48dp;
+            pictureBox4.Image = Techonology_Market_Management_System.Properties.Resources.outline_computer_black_48dp;
             AddButton();
         }
 
@@ -251,8 +251,8 @@ namespace Techonology_Market_Management_System.Forms
             selection = "SmartPhones";
             dataGridView1.Columns.Clear();
             dataGridView1.DataSource = sp.GetShort();
-            c1picture.Image = Techonology_Market_Management_System.Properties.Resources.p11;
-            pictureBox4.Image = Techonology_Market_Management_System.Properties.Resources.p11;
+            c1picture.Image = Techonology_Market_Management_System.Properties.Resources.baseline_smartphone_black_48dp;
+            pictureBox4.Image = Techonology_Market_Management_System.Properties.Resources.baseline_smartphone_black_48dp;
             AddButton();
         }
 

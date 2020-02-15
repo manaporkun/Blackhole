@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Edit_Employees));
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -410,10 +411,10 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox2.Image = global::Techonology_Market_Management_System.Properties.Resources.home2;
-            this.pictureBox2.Location = new System.Drawing.Point(24, 10);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, -2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(51, 40);
+            this.pictureBox2.Size = new System.Drawing.Size(72, 74);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 78;
             this.pictureBox2.TabStop = false;
@@ -434,16 +435,16 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox1.Location = new System.Drawing.Point(1, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(-3, -2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1263, 74);
+            this.pictureBox1.Size = new System.Drawing.Size(1267, 74);
             this.pictureBox1.TabIndex = 76;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox3.Image = global::Techonology_Market_Management_System.Properties.Resources.refresh;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(1129, 12);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(45, 40);

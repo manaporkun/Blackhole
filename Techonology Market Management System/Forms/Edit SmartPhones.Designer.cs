@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Edit_SmartPhones));
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.searchError = new System.Windows.Forms.Label();
@@ -518,10 +519,10 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox2.Image = global::Techonology_Market_Management_System.Properties.Resources.home2;
-            this.pictureBox2.Location = new System.Drawing.Point(23, 11);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(23, -1);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 40);
+            this.pictureBox2.Size = new System.Drawing.Size(71, 74);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 85;
             this.pictureBox2.TabStop = false;
@@ -539,7 +540,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox3.Image = global::Techonology_Market_Management_System.Properties.Resources.refresh;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(1162, 14);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(45, 40);

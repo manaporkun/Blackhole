@@ -19,7 +19,7 @@ namespace Techonology_Market_Management_System.Forms
         Search s = null;
         PaymentDelivery p = null;
         Payment c = null;
-        UserInformations userInformations = null;
+        //UserInformations userInformations = null;
         Computers comp = new Computers();
         SmartPhones sp = new SmartPhones();
         MusicBook mb = new MusicBook();

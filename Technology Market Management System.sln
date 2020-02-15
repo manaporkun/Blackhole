@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Technology Market Management System", "Techonology Market Management System\Technology Market Management System.csproj", "{C530B454-A718-497F-985A-B2ACF1353310}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{B496CA67-3D89-42C3-B0AC-FC5C582A971B}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{2596DAAB-A788-4E9B-BD1E-9C2DB9EC9FDB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{C530B454-A718-497F-985A-B2ACF1353310}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C530B454-A718-497F-985A-B2ACF1353310}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C530B454-A718-497F-985A-B2ACF1353310}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B496CA67-3D89-42C3-B0AC-FC5C582A971B}.Debug|Any CPU.ActiveCfg = Debug
-		{B496CA67-3D89-42C3-B0AC-FC5C582A971B}.Release|Any CPU.ActiveCfg = Release
+		{2596DAAB-A788-4E9B-BD1E-9C2DB9EC9FDB}.Debug|Any CPU.ActiveCfg = Debug
+		{2596DAAB-A788-4E9B-BD1E-9C2DB9EC9FDB}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

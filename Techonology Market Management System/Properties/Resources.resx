@@ -118,179 +118,92 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="password_icon_png_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\password_icon_png_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_computer_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_computer_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="token-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\token-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_126467" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_126467.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shopping-cart-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shopping-cart-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_alternate_email_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_alternate_email_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="global-business-international-07-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\global-business-international-07-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_book_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_book_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ge63-raider-20180110-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ge63-raider-20180110-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Phone_Line-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Phone_Line-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_shopping_cart_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_shopping_cart_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arq-menu-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arq-menu-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="twotone_exit_to_app_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\twotone_exit_to_app_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\watch_s5_851x373_v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="c2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\macOS_Mojave_wallpaper_splash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_alternate_email_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_alternate_email_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Elektronik-Firsatlari-1140x290.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="outline_alternate_email_black_48dp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_alternate_email_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="b4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="computer-22" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\computer-22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="email_us" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\email_us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search_black_216x2163" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search_black_216x2163.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="watch_s5_851x373_v21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\watch_s5_851x373_v21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="free-account-icon-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free-account-icon-01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1484667" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1484667.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="email-us" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\email-us.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="media_multimedia_audio_video_music_-_36-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\media_multimedia_audio_video_music_-_36-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1264673" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1264674.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="login_form_design_06" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_form_design_06.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="user" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\user.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="macOS-Mojave-wallpaper-splash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\macOS-Mojave-wallpaper-splash1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="media_multimedia_audio_video_music_-_36-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\media_multimedia_audio_video_music_-_36-5122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="547869-200" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\547869-200.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="compare-icon-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\compare-icon-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="free-account-icon-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free-account-icon-03.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeoriV2-104989_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OriginalPng2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OriginalPng2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="c11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="global_business_international_07_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\global_business_international_07_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="media_multimedia_audio_video_music_-_36-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\media_multimedia_audio_video_music_-_36-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="p11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\p1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_location_on_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_location_on_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1264671" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1264671.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="computer-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\computer-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="14846672" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14846672.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search_black_216x216" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search_black_216x216.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shopping-cart-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shopping-cart-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shelves" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shelves.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="c2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\macOS_Mojave_wallpaper_splash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ge63_raider_20180110_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="44386" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\44386.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_lock_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_lock_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\p2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\p1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Artboard_49_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Artboard_49_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="search_black_216x2162" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search_black_216x2162.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="p4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\p4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="search_black_216x2161" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\search_black_216x2161.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="phone-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\phone-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_phone_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_phone_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="flashsale" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flashsale.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping_cart_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shopping_cart_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baseline_person_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\baseline_person_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_smartphone_white_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_smartphone_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="twotone_exit_to_app_white_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\twotone_exit_to_app_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="black-hole-logo31417" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\black-hole-logo31417.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -298,154 +211,79 @@
   <data name="ge63-raider-20180110-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ge63-raider-20180110-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="outline_smartphone_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_smartphone_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="OriginalPng1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OriginalPng1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_1484667" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_1484667.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baseline_person_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\baseline_person_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xiaomi_huawei_851x373_v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_phone_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_phone_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="free-account-icon-0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free-account-icon-0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="login_form_design_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_form_design_11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="computer-21" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\computer-21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_44386" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_44386.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="password-icon-png-51" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\password-icon-png-51.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="home2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="computer_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\computer_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="14846671" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\14846671.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="login_form_design_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_form_design_14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="f0a4170e43fae6a84ff990b6df105199" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f0a4170e43fae6a84ff990b6df105199.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Phone_Line-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Phone_Line-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1019_d_u_x_851x373_sahane_cuma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Phone_Line_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Phone_Line_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_1119_d_u_x_273x313_panama_yayincilik" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_1119_d_u_x_273x313_panama_yayincilik.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="email-us3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\email-us3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="indir" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\indir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="126467" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1264673.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="email-us2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\email-us2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arq-menu-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arq-menu-5122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="free_account_icon_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free_account_icon_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="arq-menu-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arq-menu-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="password-icon-png-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\password-icon-png-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="token_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\token_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TeoriV2-104989_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="login_form_design_23" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_form_design_23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="login_form_design_04" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_form_design_04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bl_1504_phone_cellphone_smartphone_device_gadget_mobile_electronic-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bl_1504_phone_cellphone_smartphone_device_gadget_mobile_electronic-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="macOS-Mojave-wallpaper-splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\macOS-Mojave-wallpaper-splash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="free-account-icon-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\free-account-icon-02.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hd4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="c12" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\c11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OriginalPng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="email-us1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\email-us1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_5a2bf83069da9_thumb900" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_5a2bf83069da9_thumb900.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="shopping-cart-5122" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shopping-cart-5122.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="compare_balance-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\compare_balance-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="password-icon-png-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\password-icon-png-52.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="p3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\p3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="_2ea79bacdef6fea7a18e10d877ef5a34" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_2ea79bacdef6fea7a18e10d877ef5a34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="f0a4170e43fae6a84ff990b6df1051991" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f0a4170e43fae6a84ff990b6df1051991.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="media_multimedia_audio_video_music___36_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\media_multimedia_audio_video_music___36_512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1264672" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1264672.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="login_form_design_05" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\login_form_design_05.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="token-5121" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\token-5121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_compare_arrows_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_compare_arrows_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kasim_kitap_851x373_rev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1019_d_u_x_851x373_sahane_cuma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_lock_black_48dp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_lock_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1119_d_u_x_273x313_panama_yayincilik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_1119_d_u_x_273x313_panama_yayincilik.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_lock_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_lock_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_perm_identity_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_perm_identity_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_search_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_search_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_location_on_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_location_on_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="macOS-Mojave-wallpaper-splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\macOS-Mojave-wallpaper-splash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="macOS-Mojave-wallpaper-splash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\macOS-Mojave-wallpaper-splash1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_home_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_home_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xiaomi_huawei_851x373_v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OriginalPng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_wc_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_wc_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hd4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_cake_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_cake_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baseline_smartphone_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseline_smartphone_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_computer_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\outline_computer_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

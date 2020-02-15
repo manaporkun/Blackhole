@@ -36,63 +36,37 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.c1price = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.c1picture = new System.Windows.Forms.PictureBox();
             this.c1name = new System.Windows.Forms.Label();
             this.c1brand = new System.Windows.Forms.Label();
-            this.buttonSearch = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label2 = new System.Windows.Forms.Label();
             this.c2price = new System.Windows.Forms.Label();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.c2picture = new System.Windows.Forms.PictureBox();
             this.c2name = new System.Windows.Forms.Label();
             this.c2brand = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
             this.c3price = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.c3picture = new System.Windows.Forms.PictureBox();
             this.c3name = new System.Windows.Forms.Label();
             this.c3brand = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
             this.c4price = new System.Windows.Forms.Label();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.c4picture = new System.Windows.Forms.PictureBox();
             this.c4name = new System.Windows.Forms.Label();
             this.c4brand = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.userlabel = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.user = new System.Windows.Forms.Button();
             this.menulabel = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.menubutton = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.errorlb = new System.Windows.Forms.Label();
             this.lbError = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.tPhone = new System.Windows.Forms.MaskedTextBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
-            this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -106,28 +80,47 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label5 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox17 = new System.Windows.Forms.PictureBox();
+            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureBox20 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.menubutton = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.user = new System.Windows.Forms.Button();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.c4picture = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.cart = new System.Windows.Forms.Button();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.c3picture = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.c2picture = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.c1picture = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.buttonSearch = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c1picture)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c2picture)).BeginInit();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c3picture)).BeginInit();
             this.groupBox4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c4picture)).BeginInit();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
@@ -137,14 +130,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c4picture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c3picture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c2picture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1picture)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -209,27 +207,6 @@
             this.c1price.Text = "Price";
             this.c1price.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox5.Location = new System.Drawing.Point(6, 356);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(238, 42);
-            this.pictureBox5.TabIndex = 98;
-            this.pictureBox5.TabStop = false;
-            // 
-            // c1picture
-            // 
-            this.c1picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.c1picture.Image = global::Techonology_Market_Management_System.Properties.Resources.macOS_Mojave_wallpaper_splash1;
-            this.c1picture.Location = new System.Drawing.Point(6, 19);
-            this.c1picture.Name = "c1picture";
-            this.c1picture.Size = new System.Drawing.Size(239, 222);
-            this.c1picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.c1picture.TabIndex = 98;
-            this.c1picture.TabStop = false;
-            this.c1picture.Click += new System.EventHandler(this.c1picture_Click);
-            // 
             // c1name
             // 
             this.c1name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -249,26 +226,6 @@
             this.c1brand.TabIndex = 100;
             this.c1brand.Text = "Brand";
             this.c1brand.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // buttonSearch
-            // 
-            this.buttonSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonSearch.BackColor = System.Drawing.Color.DarkCyan;
-            this.buttonSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.buttonSearch.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonSearch.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.buttonSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonSearch.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSearch.ForeColor = System.Drawing.Color.White;
-            this.buttonSearch.Location = new System.Drawing.Point(1538, 20);
-            this.buttonSearch.Name = "buttonSearch";
-            this.buttonSearch.Size = new System.Drawing.Size(95, 37);
-            this.buttonSearch.TabIndex = 49;
-            this.buttonSearch.Text = "SEARCH";
-            this.buttonSearch.UseVisualStyleBackColor = false;
-            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
             // 
             // groupBox2
             // 
@@ -307,27 +264,6 @@
             this.c2price.TabIndex = 102;
             this.c2price.Text = "Price";
             this.c2price.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox7.Location = new System.Drawing.Point(6, 356);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(238, 42);
-            this.pictureBox7.TabIndex = 98;
-            this.pictureBox7.TabStop = false;
-            // 
-            // c2picture
-            // 
-            this.c2picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.c2picture.Image = global::Techonology_Market_Management_System.Properties.Resources.OriginalPng2;
-            this.c2picture.Location = new System.Drawing.Point(6, 19);
-            this.c2picture.Name = "c2picture";
-            this.c2picture.Size = new System.Drawing.Size(239, 222);
-            this.c2picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.c2picture.TabIndex = 98;
-            this.c2picture.TabStop = false;
-            this.c2picture.Click += new System.EventHandler(this.c2picture_Click);
             // 
             // c2name
             // 
@@ -387,27 +323,6 @@
             this.c3price.Text = "Price";
             this.c3price.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox9.Location = new System.Drawing.Point(6, 356);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(238, 42);
-            this.pictureBox9.TabIndex = 98;
-            this.pictureBox9.TabStop = false;
-            // 
-            // c3picture
-            // 
-            this.c3picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.c3picture.Image = global::Techonology_Market_Management_System.Properties.Resources.ge63_raider_20180110_11;
-            this.c3picture.Location = new System.Drawing.Point(6, 19);
-            this.c3picture.Name = "c3picture";
-            this.c3picture.Size = new System.Drawing.Size(239, 222);
-            this.c3picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.c3picture.TabIndex = 98;
-            this.c3picture.TabStop = false;
-            this.c3picture.Click += new System.EventHandler(this.c3picture_Click);
-            // 
             // c3name
             // 
             this.c3name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -466,27 +381,6 @@
             this.c4price.Text = "Price";
             this.c4price.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox11
-            // 
-            this.pictureBox11.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox11.Location = new System.Drawing.Point(6, 356);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(238, 42);
-            this.pictureBox11.TabIndex = 98;
-            this.pictureBox11.TabStop = false;
-            // 
-            // c4picture
-            // 
-            this.c4picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.c4picture.Image = global::Techonology_Market_Management_System.Properties.Resources.c4;
-            this.c4picture.Location = new System.Drawing.Point(6, 19);
-            this.c4picture.Name = "c4picture";
-            this.c4picture.Size = new System.Drawing.Size(239, 222);
-            this.c4picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.c4picture.TabIndex = 98;
-            this.c4picture.TabStop = false;
-            this.c4picture.Click += new System.EventHandler(this.c4picture_Click);
-            // 
             // c4name
             // 
             this.c4name.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -512,60 +406,42 @@
             this.groupBox5.BackColor = System.Drawing.Color.DarkCyan;
             this.groupBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.groupBox5.Controls.Add(this.label6);
-            this.groupBox5.Controls.Add(this.button5);
-            this.groupBox5.Controls.Add(this.label19);
-            this.groupBox5.Controls.Add(this.label18);
-            this.groupBox5.Controls.Add(this.label17);
             this.groupBox5.Controls.Add(this.userlabel);
-            this.groupBox5.Controls.Add(this.button4);
-            this.groupBox5.Controls.Add(this.button3);
-            this.groupBox5.Controls.Add(this.button2);
             this.groupBox5.Controls.Add(this.user);
+            this.groupBox5.Controls.Add(this.button5);
+            this.groupBox5.Controls.Add(this.button2);
+            this.groupBox5.Controls.Add(this.button3);
+            this.groupBox5.Controls.Add(this.label19);
+            this.groupBox5.Controls.Add(this.label17);
+            this.groupBox5.Controls.Add(this.button4);
+            this.groupBox5.Controls.Add(this.label18);
             this.groupBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox5.Location = new System.Drawing.Point(12, 75);
+            this.groupBox5.Location = new System.Drawing.Point(66, 75);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(1896, 122);
+            this.groupBox5.Size = new System.Drawing.Size(228, 985);
             this.groupBox5.TabIndex = 105;
             this.groupBox5.TabStop = false;
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.DarkCyan;
             this.label6.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label6.Location = new System.Drawing.Point(1662, 81);
+            this.label6.Location = new System.Drawing.Point(6, 857);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(94, 24);
+            this.label6.Size = new System.Drawing.Size(212, 24);
             this.label6.TabIndex = 111;
             this.label6.Text = "Compare";
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.DarkCyan;
-            this.button5.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.compare_icon_5;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button5.Location = new System.Drawing.Point(1675, 13);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(65, 65);
-            this.button5.TabIndex = 110;
-            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label19
             // 
             this.label19.BackColor = System.Drawing.Color.DarkCyan;
             this.label19.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label19.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label19.Location = new System.Drawing.Point(1252, 78);
+            this.label19.Location = new System.Drawing.Point(6, 655);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(119, 39);
+            this.label19.Size = new System.Drawing.Size(222, 39);
             this.label19.TabIndex = 109;
             this.label19.Text = "Books";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -575,9 +451,9 @@
             this.label18.BackColor = System.Drawing.Color.DarkCyan;
             this.label18.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label18.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label18.Location = new System.Drawing.Point(846, 78);
+            this.label18.Location = new System.Drawing.Point(8, 475);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(235, 39);
+            this.label18.Size = new System.Drawing.Size(216, 39);
             this.label18.TabIndex = 108;
             this.label18.Text = "Smartphones";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -587,9 +463,9 @@
             this.label17.BackColor = System.Drawing.Color.DarkCyan;
             this.label17.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label17.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label17.Location = new System.Drawing.Point(493, 78);
+            this.label17.Location = new System.Drawing.Point(6, 273);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(197, 39);
+            this.label17.Size = new System.Drawing.Size(216, 39);
             this.label17.TabIndex = 107;
             this.label17.Text = "Computers";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -599,79 +475,13 @@
             this.userlabel.BackColor = System.Drawing.Color.DarkCyan;
             this.userlabel.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.userlabel.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.userlabel.Location = new System.Drawing.Point(102, 80);
+            this.userlabel.Location = new System.Drawing.Point(6, 124);
+            this.userlabel.Margin = new System.Windows.Forms.Padding(100, 0, 0, 0);
             this.userlabel.Name = "userlabel";
-            this.userlabel.Size = new System.Drawing.Size(111, 39);
+            this.userlabel.Size = new System.Drawing.Size(216, 39);
             this.userlabel.TabIndex = 106;
             this.userlabel.Text = "User";
             this.userlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.DarkCyan;
-            this.button4.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.media_multimedia_audio_video_music___36_5122;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button4.Location = new System.Drawing.Point(1277, 10);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(65, 65);
-            this.button4.TabIndex = 94;
-            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.DarkCyan;
-            this.button3.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.phone_icon;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button3.Location = new System.Drawing.Point(922, 10);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(65, 65);
-            this.button3.TabIndex = 93;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.DarkCyan;
-            this.button2.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.computer_22;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button2.Location = new System.Drawing.Point(553, 10);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(65, 65);
-            this.button2.TabIndex = 92;
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // user
-            // 
-            this.user.BackColor = System.Drawing.Color.DarkCyan;
-            this.user.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources._1264672;
-            this.user.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.user.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.user.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.user.ForeColor = System.Drawing.Color.Transparent;
-            this.user.Location = new System.Drawing.Point(127, 13);
-            this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(65, 65);
-            this.user.TabIndex = 89;
-            this.user.UseVisualStyleBackColor = false;
-            this.user.Click += new System.EventHandler(this.user_Click_1);
             // 
             // menulabel
             // 
@@ -698,24 +508,6 @@
             this.groupBox6.TabIndex = 106;
             this.groupBox6.TabStop = false;
             // 
-            // menubutton
-            // 
-            this.menubutton.BackColor = System.Drawing.Color.DarkCyan;
-            this.menubutton.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.arq_menu_5122;
-            this.menubutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.menubutton.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
-            this.menubutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.menubutton.Font = new System.Drawing.Font("Century", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.menubutton.ForeColor = System.Drawing.Color.Transparent;
-            this.menubutton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.menubutton.Location = new System.Drawing.Point(0, 6);
-            this.menubutton.Name = "menubutton";
-            this.menubutton.Size = new System.Drawing.Size(66, 54);
-            this.menubutton.TabIndex = 104;
-            this.menubutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.menubutton.UseVisualStyleBackColor = false;
-            this.menubutton.Click += new System.EventHandler(this.menubutton_Click);
-            // 
             // groupBox7
             // 
             this.groupBox7.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -733,7 +525,6 @@
             this.groupBox7.Controls.Add(this.pictureBox15);
             this.groupBox7.Controls.Add(this.pictureBox17);
             this.groupBox7.Controls.Add(this.pictureBox18);
-            this.groupBox7.Controls.Add(this.pictureBox19);
             this.groupBox7.Controls.Add(this.pictureBox20);
             this.groupBox7.Controls.Add(this.label10);
             this.groupBox7.Controls.Add(this.label9);
@@ -746,7 +537,7 @@
             this.groupBox7.Controls.Add(this.tName);
             this.groupBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox7.Font = new System.Drawing.Font("Symbol", 8.25F);
-            this.groupBox7.Location = new System.Drawing.Point(12, 203);
+            this.groupBox7.Location = new System.Drawing.Point(1553, 75);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(345, 545);
             this.groupBox7.TabIndex = 110;
@@ -803,60 +594,6 @@
             this.label12.TabIndex = 170;
             this.label12.Text = "User Informations";
             // 
-            // pictureBox21
-            // 
-            this.pictureBox21.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox21.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(345, 63);
-            this.pictureBox21.TabIndex = 169;
-            this.pictureBox21.TabStop = false;
-            // 
-            // pictureBox13
-            // 
-            this.pictureBox13.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox13.Location = new System.Drawing.Point(80, 363);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(190, 5);
-            this.pictureBox13.TabIndex = 167;
-            this.pictureBox13.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox12.Location = new System.Drawing.Point(80, 306);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(190, 5);
-            this.pictureBox12.TabIndex = 166;
-            this.pictureBox12.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox4.Location = new System.Drawing.Point(80, 203);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(190, 5);
-            this.pictureBox4.TabIndex = 165;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox10.Location = new System.Drawing.Point(80, 256);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(190, 5);
-            this.pictureBox10.TabIndex = 164;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox8.Location = new System.Drawing.Point(80, 153);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(190, 5);
-            this.pictureBox8.TabIndex = 163;
-            this.pictureBox8.TabStop = false;
-            // 
             // tPhone
             // 
             this.tPhone.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -868,56 +605,6 @@
             this.tPhone.Name = "tPhone";
             this.tPhone.Size = new System.Drawing.Size(143, 19);
             this.tPhone.TabIndex = 160;
-            // 
-            // pictureBox15
-            // 
-            this.pictureBox15.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.Phone_Line_5121;
-            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox15.Location = new System.Drawing.Point(80, 320);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(38, 37);
-            this.pictureBox15.TabIndex = 156;
-            this.pictureBox15.TabStop = false;
-            // 
-            // pictureBox17
-            // 
-            this.pictureBox17.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.password_icon_png_51;
-            this.pictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox17.Location = new System.Drawing.Point(80, 266);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(38, 37);
-            this.pictureBox17.TabIndex = 154;
-            this.pictureBox17.TabStop = false;
-            // 
-            // pictureBox18
-            // 
-            this.pictureBox18.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.email_us2;
-            this.pictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox18.Location = new System.Drawing.Point(80, 214);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(38, 37);
-            this.pictureBox18.TabIndex = 153;
-            this.pictureBox18.TabStop = false;
-            // 
-            // pictureBox19
-            // 
-            this.pictureBox19.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.token_5121;
-            this.pictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox19.Location = new System.Drawing.Point(80, 164);
-            this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(38, 37);
-            this.pictureBox19.TabIndex = 152;
-            this.pictureBox19.TabStop = false;
-            // 
-            // pictureBox20
-            // 
-            this.pictureBox20.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.free_account_icon_02;
-            this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox20.Location = new System.Drawing.Point(80, 116);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(38, 37);
-            this.pictureBox20.TabIndex = 151;
-            this.pictureBox20.TabStop = false;
             // 
             // label10
             // 
@@ -1047,7 +734,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.DimGray;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.DarkCyan;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
@@ -1089,6 +776,109 @@
             this.label20.Text = "Computers";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox14
+            // 
+            this.pictureBox14.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox14.Location = new System.Drawing.Point(539, 644);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(841, 10);
+            this.pictureBox14.TabIndex = 176;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox21.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(345, 63);
+            this.pictureBox21.TabIndex = 169;
+            this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox13.Location = new System.Drawing.Point(80, 363);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(190, 5);
+            this.pictureBox13.TabIndex = 167;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox12.Location = new System.Drawing.Point(80, 306);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(190, 5);
+            this.pictureBox12.TabIndex = 166;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox4.Location = new System.Drawing.Point(80, 203);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(190, 5);
+            this.pictureBox4.TabIndex = 165;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox10
+            // 
+            this.pictureBox10.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox10.Location = new System.Drawing.Point(80, 256);
+            this.pictureBox10.Name = "pictureBox10";
+            this.pictureBox10.Size = new System.Drawing.Size(190, 5);
+            this.pictureBox10.TabIndex = 164;
+            this.pictureBox10.TabStop = false;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox8.Location = new System.Drawing.Point(80, 153);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(190, 5);
+            this.pictureBox8.TabIndex = 163;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_phone_black_48dp;
+            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox15.Location = new System.Drawing.Point(80, 320);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(38, 37);
+            this.pictureBox15.TabIndex = 156;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox17
+            // 
+            this.pictureBox17.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_lock_black_48dp;
+            this.pictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox17.Location = new System.Drawing.Point(80, 266);
+            this.pictureBox17.Name = "pictureBox17";
+            this.pictureBox17.Size = new System.Drawing.Size(38, 37);
+            this.pictureBox17.TabIndex = 154;
+            this.pictureBox17.TabStop = false;
+            // 
+            // pictureBox18
+            // 
+            this.pictureBox18.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_alternate_email_black_48dp;
+            this.pictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox18.Location = new System.Drawing.Point(80, 214);
+            this.pictureBox18.Name = "pictureBox18";
+            this.pictureBox18.Size = new System.Drawing.Size(38, 37);
+            this.pictureBox18.TabIndex = 153;
+            this.pictureBox18.TabStop = false;
+            // 
+            // pictureBox20
+            // 
+            this.pictureBox20.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.baseline_person_black_48dp;
+            this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox20.Location = new System.Drawing.Point(80, 116);
+            this.pictureBox20.Name = "pictureBox20";
+            this.pictureBox20.Size = new System.Drawing.Size(38, 37);
+            this.pictureBox20.TabIndex = 151;
+            this.pictureBox20.TabStop = false;
+            // 
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.DarkCyan;
@@ -1098,10 +888,135 @@
             this.pictureBox6.TabIndex = 108;
             this.pictureBox6.TabStop = false;
             // 
+            // menubutton
+            // 
+            this.menubutton.BackColor = System.Drawing.Color.DarkCyan;
+            this.menubutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("menubutton.BackgroundImage")));
+            this.menubutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.menubutton.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.menubutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.menubutton.Font = new System.Drawing.Font("Century", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.menubutton.ForeColor = System.Drawing.Color.Transparent;
+            this.menubutton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.menubutton.Location = new System.Drawing.Point(0, 6);
+            this.menubutton.Name = "menubutton";
+            this.menubutton.Size = new System.Drawing.Size(66, 54);
+            this.menubutton.TabIndex = 104;
+            this.menubutton.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.menubutton.UseVisualStyleBackColor = false;
+            this.menubutton.Click += new System.EventHandler(this.menubutton_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.DarkCyan;
+            this.button5.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_compare_arrows_white_48dp;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button5.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button5.Location = new System.Drawing.Point(6, 789);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(212, 65);
+            this.button5.TabIndex = 110;
+            this.button5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.DarkCyan;
+            this.button4.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_book_white_48dp;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button4.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button4.Location = new System.Drawing.Point(10, 587);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(212, 65);
+            this.button4.TabIndex = 94;
+            this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.DarkCyan;
+            this.button3.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_smartphone_white_48dp1;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button3.Location = new System.Drawing.Point(6, 407);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(218, 65);
+            this.button3.TabIndex = 93;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.DarkCyan;
+            this.button2.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_computer_white_48dp;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button2.Location = new System.Drawing.Point(6, 205);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(216, 65);
+            this.button2.TabIndex = 92;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // user
+            // 
+            this.user.BackColor = System.Drawing.Color.DarkCyan;
+            this.user.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("user.BackgroundImage")));
+            this.user.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.user.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.user.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.user.ForeColor = System.Drawing.Color.Transparent;
+            this.user.Location = new System.Drawing.Point(6, 57);
+            this.user.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            this.user.Name = "user";
+            this.user.Size = new System.Drawing.Size(216, 65);
+            this.user.TabIndex = 89;
+            this.user.UseVisualStyleBackColor = false;
+            this.user.Click += new System.EventHandler(this.user_Click_1);
+            // 
+            // pictureBox11
+            // 
+            this.pictureBox11.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox11.Location = new System.Drawing.Point(6, 356);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(238, 42);
+            this.pictureBox11.TabIndex = 98;
+            this.pictureBox11.TabStop = false;
+            // 
+            // c4picture
+            // 
+            this.c4picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.c4picture.Image = global::Techonology_Market_Management_System.Properties.Resources.c4;
+            this.c4picture.Location = new System.Drawing.Point(6, 19);
+            this.c4picture.Name = "c4picture";
+            this.c4picture.Size = new System.Drawing.Size(239, 222);
+            this.c4picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.c4picture.TabIndex = 98;
+            this.c4picture.TabStop = false;
+            this.c4picture.Click += new System.EventHandler(this.c4picture_Click);
+            // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkCyan;
-            this.button1.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources._1264673;
+            this.button1.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.twotone_exit_to_app_white_48dp;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
@@ -1121,7 +1036,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.cart.BackColor = System.Drawing.Color.DarkCyan;
-            this.cart.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.shopping_cart_5122;
+            this.cart.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_shopping_cart_white_48dp;
             this.cart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.cart.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cart.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
@@ -1133,6 +1048,69 @@
             this.cart.TabIndex = 91;
             this.cart.UseVisualStyleBackColor = false;
             this.cart.Click += new System.EventHandler(this.cart_Click_1);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox9.Location = new System.Drawing.Point(6, 356);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(238, 42);
+            this.pictureBox9.TabIndex = 98;
+            this.pictureBox9.TabStop = false;
+            // 
+            // c3picture
+            // 
+            this.c3picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.c3picture.Image = global::Techonology_Market_Management_System.Properties.Resources.ge63_raider_20180110_11;
+            this.c3picture.Location = new System.Drawing.Point(6, 19);
+            this.c3picture.Name = "c3picture";
+            this.c3picture.Size = new System.Drawing.Size(239, 222);
+            this.c3picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.c3picture.TabIndex = 98;
+            this.c3picture.TabStop = false;
+            this.c3picture.Click += new System.EventHandler(this.c3picture_Click);
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox7.Location = new System.Drawing.Point(6, 356);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(238, 42);
+            this.pictureBox7.TabIndex = 98;
+            this.pictureBox7.TabStop = false;
+            // 
+            // c2picture
+            // 
+            this.c2picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.c2picture.Image = global::Techonology_Market_Management_System.Properties.Resources.OriginalPng2;
+            this.c2picture.Location = new System.Drawing.Point(6, 19);
+            this.c2picture.Name = "c2picture";
+            this.c2picture.Size = new System.Drawing.Size(239, 222);
+            this.c2picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.c2picture.TabIndex = 98;
+            this.c2picture.TabStop = false;
+            this.c2picture.Click += new System.EventHandler(this.c2picture_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox5.Location = new System.Drawing.Point(6, 356);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(238, 42);
+            this.pictureBox5.TabIndex = 98;
+            this.pictureBox5.TabStop = false;
+            // 
+            // c1picture
+            // 
+            this.c1picture.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.c1picture.Image = global::Techonology_Market_Management_System.Properties.Resources.macOS_Mojave_wallpaper_splash1;
+            this.c1picture.Location = new System.Drawing.Point(6, 19);
+            this.c1picture.Name = "c1picture";
+            this.c1picture.Size = new System.Drawing.Size(239, 222);
+            this.c1picture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.c1picture.TabIndex = 98;
+            this.c1picture.TabStop = false;
+            this.c1picture.Click += new System.EventHandler(this.c1picture_Click);
             // 
             // pictureBox3
             // 
@@ -1157,6 +1135,26 @@
             this.pictureBox2.TabIndex = 58;
             this.pictureBox2.TabStop = false;
             // 
+            // buttonSearch
+            // 
+            this.buttonSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonSearch.BackColor = System.Drawing.Color.DarkCyan;
+            this.buttonSearch.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_search_white_48dp;
+            this.buttonSearch.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.buttonSearch.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonSearch.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.buttonSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSearch.Font = new System.Drawing.Font("Nirmala UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonSearch.ForeColor = System.Drawing.Color.White;
+            this.buttonSearch.Location = new System.Drawing.Point(1538, 20);
+            this.buttonSearch.Name = "buttonSearch";
+            this.buttonSearch.Size = new System.Drawing.Size(43, 37);
+            this.buttonSearch.TabIndex = 49;
+            this.buttonSearch.UseVisualStyleBackColor = false;
+            this.buttonSearch.Click += new System.EventHandler(this.buttonSearch_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.DarkCyan;
@@ -1165,15 +1163,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(1919, 69);
             this.pictureBox1.TabIndex = 47;
             this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox14
-            // 
-            this.pictureBox14.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox14.Location = new System.Drawing.Point(539, 644);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(841, 10);
-            this.pictureBox14.TabIndex = 176;
-            this.pictureBox14.TabStop = false;
             // 
             // Home
             // 
@@ -1210,22 +1199,15 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Home_Load);
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c1picture)).EndInit();
             this.groupBox2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c2picture)).EndInit();
             this.groupBox3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c3picture)).EndInit();
             this.groupBox4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.c4picture)).EndInit();
             this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
@@ -1235,14 +1217,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c4picture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c3picture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c2picture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.c1picture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1308,7 +1295,6 @@
         private System.Windows.Forms.PictureBox pictureBox15;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox pictureBox20;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;

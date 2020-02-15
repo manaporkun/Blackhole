@@ -114,23 +114,31 @@ namespace Techonology_Market_Management_System
                 
                 else
                 {
-                    User u = new User();
-                    var result = u.Add(name, surname, email, passw, address, gender,phoneNumber,dob);
-                    if (result > 0)
+                    try
                     {
-                        lbError.Text = ("Succesful");
-                        cc.CreateTable(u.GetByName(name, "Customer").Rows[0][7].ToString());
-                        
-                        forgotPassword.isNew(email);
-                        lbError.ForeColor = Color.Green;
-                        this.Hide();
-                        forgotPassword.Show();
+                        User u = new User();
+                        var result = u.Add(name, surname, email, passw, address, gender, phoneNumber, dob);
+                        if (result > 0)
+                        {
+                            lbError.Text = "Succesful";
+                            cc.CreateTable(phoneNumber);
+
+                            forgotPassword.isNew(email);
+                            lbError.ForeColor = Color.Green;
+                            this.Hide();
+                            forgotPassword.Show();
+                        }
+                        else
+                        {
+                            lbError.Text = ("Error");
+                            lbError.ForeColor = Color.Red;
+                        }
                     }
-                    else
+                    catch(Exception ex)
                     {
-                        lbError.Text = ("Error");
-                        lbError.ForeColor = Color.Red;
+                        MessageBox.Show(ex.Message);
                     }
+                   
                 }
 
             }
@@ -169,6 +177,11 @@ namespace Techonology_Market_Management_System
         }
 
         private void securitybt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
         {
 
         }

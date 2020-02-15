@@ -32,7 +32,7 @@ namespace Techonology_Market_Management_System
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            //TMMS.ChangeWindowsState(1);
         }
 
        
@@ -100,16 +100,18 @@ namespace Techonology_Market_Management_System
         {
             if (tMMS == null)
             {
-                tMMS = new TMMS();
-                tMMS.Show();
+                TMMS.ChangeWindowsState(1);
                 this.Close();
             }
-            else tMMS = null;
+            else
+                tMMS = null;
+
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             pictureBox1_Click(sender, e);
+            this.Close();
         }
     }
 }

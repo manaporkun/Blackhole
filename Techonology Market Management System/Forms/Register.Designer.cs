@@ -47,10 +47,10 @@
             this.bLogin = new System.Windows.Forms.Button();
             this.rbMale = new System.Windows.Forms.RadioButton();
             this.rbFemale = new System.Windows.Forms.RadioButton();
-            this.label2 = new System.Windows.Forms.Label();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
@@ -61,11 +61,12 @@
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
@@ -76,11 +77,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.SuspendLayout();
             // 
             // Error
@@ -146,7 +146,7 @@
             this.tEmail.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tEmail.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tEmail.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.tEmail.Location = new System.Drawing.Point(854, 429);
+            this.tEmail.Location = new System.Drawing.Point(854, 460);
             this.tEmail.Name = "tEmail";
             this.tEmail.Size = new System.Drawing.Size(190, 25);
             this.tEmail.TabIndex = 18;
@@ -189,7 +189,7 @@
             this.tAdress.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tAdress.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tAdress.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.tAdress.Location = new System.Drawing.Point(854, 639);
+            this.tAdress.Location = new System.Drawing.Point(854, 719);
             this.tAdress.Multiline = true;
             this.tAdress.Name = "tAdress";
             this.tAdress.Size = new System.Drawing.Size(190, 51);
@@ -221,7 +221,7 @@
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label11.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.label11.Location = new System.Drawing.Point(1874, 10);
+            this.label11.Location = new System.Drawing.Point(1874, 9);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(34, 33);
             this.label11.TabIndex = 85;
@@ -234,7 +234,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.DarkCyan;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.label1.Location = new System.Drawing.Point(347, 33);
+            this.label1.Location = new System.Drawing.Point(355, 46);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(1568, 65);
             this.label1.TabIndex = 89;
@@ -288,7 +288,7 @@
             // 
             this.rbMale.AutoSize = true;
             this.rbMale.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rbMale.Location = new System.Drawing.Point(1259, 681);
+            this.rbMale.Location = new System.Drawing.Point(1259, 732);
             this.rbMale.Name = "rbMale";
             this.rbMale.Size = new System.Drawing.Size(63, 23);
             this.rbMale.TabIndex = 106;
@@ -300,7 +300,7 @@
             // 
             this.rbFemale.AutoSize = true;
             this.rbFemale.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.rbFemale.Location = new System.Drawing.Point(1326, 681);
+            this.rbFemale.Location = new System.Drawing.Point(1326, 732);
             this.rbFemale.Name = "rbFemale";
             this.rbFemale.Size = new System.Drawing.Size(81, 23);
             this.rbFemale.TabIndex = 107;
@@ -308,39 +308,17 @@
             this.rbFemale.Text = "Female";
             this.rbFemale.UseVisualStyleBackColor = true;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label2.Location = new System.Drawing.Point(1229, 625);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(82, 24);
-            this.label2.TabIndex = 108;
-            this.label2.Text = "Gender";
-            // 
             // maskedTextBox1
             // 
             this.maskedTextBox1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.maskedTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.maskedTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.maskedTextBox1.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.maskedTextBox1.Location = new System.Drawing.Point(901, 513);
+            this.maskedTextBox1.Location = new System.Drawing.Point(901, 593);
             this.maskedTextBox1.Mask = "(999) 000-0000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(143, 19);
             this.maskedTextBox1.TabIndex = 111;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.ForeColor = System.Drawing.SystemColors.WindowFrame;
-            this.label3.Location = new System.Drawing.Point(1217, 512);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(166, 24);
-            this.label3.TabIndex = 134;
-            this.label3.Text = "Date of Birth";
             // 
             // dateTimePicker1
             // 
@@ -348,15 +326,34 @@
             this.dateTimePicker1.CalendarForeColor = System.Drawing.SystemColors.WindowFrame;
             this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.SystemColors.WindowFrame;
             this.dateTimePicker1.Font = new System.Drawing.Font("Century", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(1221, 542);
+            this.dateTimePicker1.Location = new System.Drawing.Point(1221, 593);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(190, 21);
             this.dateTimePicker1.TabIndex = 133;
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_cake_black_48dp;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox4.Location = new System.Drawing.Point(1221, 542);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox4.TabIndex = 144;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.BackColor = System.Drawing.Color.DarkCyan;
+            this.pictureBox16.Location = new System.Drawing.Point(1221, 618);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(190, 5);
+            this.pictureBox16.TabIndex = 143;
+            this.pictureBox16.TabStop = false;
+            // 
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox14.Location = new System.Drawing.Point(854, 701);
+            this.pictureBox14.Location = new System.Drawing.Point(854, 781);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(190, 5);
             this.pictureBox14.TabIndex = 140;
@@ -365,7 +362,7 @@
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox13.Location = new System.Drawing.Point(854, 538);
+            this.pictureBox13.Location = new System.Drawing.Point(854, 618);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(190, 5);
             this.pictureBox13.TabIndex = 139;
@@ -392,7 +389,7 @@
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox10.Location = new System.Drawing.Point(854, 458);
+            this.pictureBox10.Location = new System.Drawing.Point(854, 489);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(190, 5);
             this.pictureBox10.TabIndex = 136;
@@ -409,9 +406,9 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.Phone_Line_5121;
+            this.pictureBox8.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_phone_black_48dp1;
             this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox8.Location = new System.Drawing.Point(854, 462);
+            this.pictureBox8.Location = new System.Drawing.Point(854, 542);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(45, 45);
             this.pictureBox8.TabIndex = 105;
@@ -419,17 +416,18 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.f0a4170e43fae6a84ff990b6df105199;
+            this.pictureBox7.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_location_on_black_48dp1;
             this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox7.Location = new System.Drawing.Point(854, 565);
+            this.pictureBox7.Location = new System.Drawing.Point(854, 645);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(45, 45);
             this.pictureBox7.TabIndex = 103;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.password_icon_png_51;
+            this.pictureBox6.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_lock_black_48dp2;
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox6.Location = new System.Drawing.Point(1221, 409);
             this.pictureBox6.Name = "pictureBox6";
@@ -439,27 +437,17 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.email_us2;
+            this.pictureBox5.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_alternate_email_black_48dp2;
             this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox5.Location = new System.Drawing.Point(854, 378);
+            this.pictureBox5.Location = new System.Drawing.Point(854, 409);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(45, 45);
             this.pictureBox5.TabIndex = 101;
             this.pictureBox5.TabStop = false;
             // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.token_5121;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox4.Location = new System.Drawing.Point(1221, 287);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(45, 45);
-            this.pictureBox4.TabIndex = 100;
-            this.pictureBox4.TabStop = false;
-            // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.free_account_icon_02;
+            this.pictureBox1.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.baseline_person_black_48dp1;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Location = new System.Drawing.Point(854, 287);
             this.pictureBox1.Name = "pictureBox1";
@@ -487,14 +475,15 @@
             this.pictureBox3.TabIndex = 94;
             this.pictureBox3.TabStop = false;
             // 
-            // pictureBox16
+            // pictureBox15
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox16.Location = new System.Drawing.Point(1221, 567);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(190, 5);
-            this.pictureBox16.TabIndex = 143;
-            this.pictureBox16.TabStop = false;
+            this.pictureBox15.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_wc_black_48dp;
+            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox15.Location = new System.Drawing.Point(1221, 645);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(45, 45);
+            this.pictureBox15.TabIndex = 145;
+            this.pictureBox15.TabStop = false;
             // 
             // Register
             // 
@@ -502,6 +491,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1920, 1080);
+            this.Controls.Add(this.pictureBox15);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox16);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox13);
@@ -509,17 +500,14 @@
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox10);
             this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.maskedTextBox1);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.rbFemale);
             this.Controls.Add(this.rbMale);
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label14);
@@ -547,6 +535,8 @@
             this.Text = "Register";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Register_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
@@ -557,11 +547,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -589,16 +578,13 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.RadioButton rbMale;
         private System.Windows.Forms.RadioButton rbFemale;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.PictureBox pictureBox9;
         private System.Windows.Forms.PictureBox pictureBox10;
@@ -607,5 +593,7 @@
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox15;
     }
 }

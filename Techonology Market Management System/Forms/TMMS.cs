@@ -30,11 +30,27 @@ namespace Techonology_Market_Management_System.Forms
             {
                 r = new Register();
                 r.Show();
-                this.Hide();
+                // this.Hide();
+                this.WindowState = FormWindowState.Minimized;
             }
             else
             {
                 r = null;
+            }
+        }
+
+        public static void ChangeWindowsState(int state)
+        {
+            switch (state){
+                case 1:
+                    TMMS.ActiveForm.Show();
+                    break;
+                case 2:
+                    TMMS.ActiveForm.WindowState = FormWindowState.Normal;
+                    break;
+                default:
+                    break;
+
             }
         }
     }

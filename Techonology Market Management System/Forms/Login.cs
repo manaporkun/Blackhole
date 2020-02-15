@@ -30,9 +30,6 @@ namespace Techonology_Market_Management_System
 
         private void label4_Click(object sender, EventArgs e)
         {
-            tmms = null;
-            tmms = new TMMS();
-            tmms.Show();
             this.Close();
             
         }
@@ -76,7 +73,7 @@ namespace Techonology_Market_Management_System
                             h = new Home();
                             h.Show();
 
-                            UserInformations.TakeEmail(email);
+                            //UserInformations.TakeEmail(email);
                         }
                         else
                             h = null;

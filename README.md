@@ -13,4 +13,4 @@ In the C # project competition organized under the Visual Programming course of 
 ![](editcomp.png)
 ![](editusers.png)
 
-Note : The visuals in the project, do not belong to me.
+Note : The "blackhole" logo and some pictures in home page, do not belong to me.

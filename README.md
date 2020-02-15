@@ -9,5 +9,8 @@ In the C # project competition organized under the Visual Programming course of 
 ![](login.png)
 ![](home.png)
 ![](compare.png)
+![](adminpanel.png)
+![](editcomp.png)
+![](editusers.png)
 
 Note : The visuals in the project, do not belong to me.

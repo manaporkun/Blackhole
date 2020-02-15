@@ -13,4 +13,5 @@ In the C # project competition organized under the Visual Programming course of 
 ![](editcomp.png)
 ![](editusers.png)
 
+Note : To enter admin panel, you need to login with "admin" and "admin123".
 Note : The "blackhole" logo and some pictures in home page, do not belong to me.

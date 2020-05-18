@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Blackhole.Properties;
+using System.ComponentModel;
 
 namespace Techonology_Market_Management_System.Forms
 {
@@ -31,10 +32,13 @@ namespace Techonology_Market_Management_System.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,18 +57,19 @@ namespace Techonology_Market_Management_System.Forms
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button1.BackColor = System.Drawing.Color.DarkCyan;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkCyan;
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkCyan;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.button1.Location = new System.Drawing.Point(539, 535);
+            this.button1.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button1.Location = new System.Drawing.Point(543, 590);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(186, 66);
+            this.button1.Size = new System.Drawing.Size(187, 68);
             this.button1.TabIndex = 138;
             this.button1.Text = "Enter";
             this.button1.UseVisualStyleBackColor = false;
@@ -74,24 +79,34 @@ namespace Techonology_Market_Management_System.Forms
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DarkCyan;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Image = global::Techonology_Market_Management_System.Properties.Resources.black_hole_logo31417;
+            this.pictureBox2.Image = global::Blackhole.Properties.Resources.black_hole_logo31417;
             this.pictureBox2.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1282, 375);
+            this.pictureBox2.Size = new System.Drawing.Size(1280, 408);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox2.TabIndex = 64;
             this.pictureBox2.TabStop = false;
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Calibri", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Font = new System.Drawing.Font("Average Sans", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.DarkCyan;
-            this.label2.Location = new System.Drawing.Point(3, 411);
+            this.label2.Location = new System.Drawing.Point(12, 411);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1256, 121);
+            this.label2.Size = new System.Drawing.Size(1256, 129);
             this.label2.TabIndex = 139;
             this.label2.Text = "Welcome";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuElipse1
+            // 
+            this.bunifuElipse1.ElipseRadius = 5;
+            this.bunifuElipse1.TargetControl = this;
+            // 
+            // bunifuElipse2
+            // 
+            this.bunifuElipse2.ElipseRadius = 5;
+            this.bunifuElipse2.TargetControl = this.button1;
             // 
             // TMMS
             // 
@@ -118,5 +133,7 @@ namespace Techonology_Market_Management_System.Forms
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
     }
 }

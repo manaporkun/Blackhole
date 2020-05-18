@@ -12,14 +12,29 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C530B454-A718-497F-985A-B2ACF1353310}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Techonology_Market_Management_System</RootNamespace>
-    <AssemblyName>Techonology Market Management System</AssemblyName>
+    <RootNamespace>Blackhole</RootNamespace>
+    <AssemblyName>Blackhole</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -41,6 +56,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.CodeParser.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Images.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v19.2.Core, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v19.2, Version=19.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -57,6 +91,7 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Data.SQLite, Version=1.0.111.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.SQLite.Core.1.0.111.0\lib\net46\System.Data.SQLite.dll</HintPath>
     </Reference>
@@ -67,6 +102,11 @@
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.111.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
     </Reference>
     <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -78,8 +118,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BHDatabaseDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BHDatabaseDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BHDatabaseDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BHDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Classes\CartClass.cs" />
+    <Compile Include="Classes\CommonFunctions.cs" />
+    <Compile Include="Classes\Computers.cs" />
     <Compile Include="Classes\DataAccess.cs" />
+    <Compile Include="Classes\Employee.cs" />
+    <Compile Include="Classes\MusicBook.cs" />
+    <Compile Include="Classes\Order.cs" />
+    <Compile Include="Classes\ProductType.cs" />
+    <Compile Include="Classes\SmartPhones.cs" />
+    <Compile Include="Classes\User.cs" />
+    <Compile Include="Forms\Alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Alert.Designer.cs">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Compare.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +155,18 @@
     </Compile>
     <Compile Include="Forms\ForgotPassword.Designer.cs">
       <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Orders.Designer.cs">
+      <DependentUpon>Orders.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\RealCart.cs">
       <SubType>Form</SubType>
@@ -105,12 +181,6 @@
     </Compile>
     <Compile Include="Forms\Admin Panel.Designer.cs">
       <DependentUpon>Admin Panel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Cart.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Cart.Designer.cs">
-      <DependentUpon>Cart.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Edit Employees.cs">
       <SubType>Form</SubType>
@@ -160,6 +230,18 @@
     <Compile Include="Forms\TMMS.Designer.cs">
       <DependentUpon>TMMS.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\UserProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UserProfile.Designer.cs">
+      <DependentUpon>UserProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Forms\Login.cs">
@@ -180,45 +262,64 @@
     <Compile Include="Forms\Search.Designer.cs">
       <DependentUpon>Search.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\Alert.resx">
+      <DependentUpon>Alert.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Compare.resx">
       <DependentUpon>Compare.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Edit SmartPhones.resx">
       <DependentUpon>Edit SmartPhones.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ForgotPassword.resx">
       <DependentUpon>ForgotPassword.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\RealCart.resx">
       <DependentUpon>RealCart.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Admin Panel.resx">
       <DependentUpon>Admin Panel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Cart.resx">
-      <DependentUpon>Cart.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Edit Employees.resx">
       <DependentUpon>Edit Employees.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Edit Computers.resx">
       <DependentUpon>Edit Computers.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Edit MusicBook.resx">
       <DependentUpon>Edit MusicBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Edit Users.resx">
       <DependentUpon>Edit Users.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PaymentDelivery.resx">
       <DependentUpon>PaymentDelivery.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\TMMS.resx">
       <DependentUpon>TMMS.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UserProfile.resx">
+      <DependentUpon>UserProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -226,14 +327,38 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Register.resx">
       <DependentUpon>Register.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Search.resx">
       <DependentUpon>Search.cs</DependentUpon>
     </EmbeddedResource>
     <None Include=".editorconfig" />
+    <None Include="BHDatabaseDataSet.xsc">
+      <DependentUpon>BHDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BHDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BHDatabaseDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BHDatabaseDataSet.xss">
+      <DependentUpon>BHDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BHDatabaseDataSet10.xsc">
+      <DependentUpon>BHDatabaseDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="BHDatabaseDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BHDatabaseDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BHDatabaseDataSet10.xss">
+      <DependentUpon>BHDatabaseDataSet10.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -280,6 +405,7 @@
     <None Include="Resources\watch_s5_851x373_v2.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\_8.jpg" />
     <None Include="Resources\_7.jpg" />
     <None Include="Resources\1019_d_u_x_851x373_sahane_cuma.jpg" />
     <None Include="Resources\b1.jpg" />
@@ -290,8 +416,20 @@
     <None Include="Resources\flashsale.jpg" />
     <None Include="Resources\ge63-raider-20180110-11.png" />
     <None Include="Resources\baseline_smartphone_black_48dp.png" />
+    <None Include="Resources\baseline_list_alt_white_48dp.png" />
+    <None Include="Resources\baseline_list_alt_white_48dp1.png" />
+    <None Include="Resources\baseline_menu_open_white_48dp.png" />
+    <None Include="Resources\baseline_bookmark_border_white_48dp.png" />
+    <None Include="Resources\baseline_computer_white_48dp.png" />
+    <None Include="Resources\daniel-korpai-HyTwtsk8XqA-unsplash.jpg" />
+    <None Include="Resources\ales-nesetril-Im7lZjxeLhg-unsplash.jpg" />
+    <None Include="Resources\daniel-korpai-HyTwtsk8XqA-unsplash1.jpg" />
     <Content Include="Resources\ge63_raider_20180110_1.png" />
     <Content Include="Resources\hd4.jpg" />
+    <None Include="Resources\julian-o-hayon-HY3l4IeOc3E-unsplash.jpg" />
+    <None Include="Resources\joshua-qualls-Qr23OCEm1ZI-unsplash.jpg" />
+    <None Include="Resources\kaffebase-g7_leR9phlU-unsplash.jpg" />
+    <None Include="Resources\kaffebase-g7_leR9phlU-unsplash1.jpg" />
     <Content Include="Resources\kasim_kitap_851x373_rev.png" />
     <None Include="Resources\macOS-Mojave-wallpaper-splash1.png" />
     <Content Include="Resources\macOS_Mojave_wallpaper_splash.png" />
@@ -312,19 +450,37 @@
     <None Include="Resources\New Resources\baseline_person_black_48dp.png" />
     <None Include="Resources\New Resources\outline_home_white_48dp.png" />
     <None Include="Resources\New Resources\outline_cake_black_48dp.png" />
+    <None Include="Resources\matt-wojtas--baMCm2CLKM-unsplash.jpg" />
     <Content Include="Resources\OriginalPng1.png" />
     <None Include="Resources\OriginalPng2.png" />
     <None Include="Resources\p3.jpg" />
     <None Include="Resources\p4.jpg" />
     <None Include="Resources\p1.jpg" />
     <None Include="Resources\p2.jpg" />
+    <None Include="Resources\outline_cancel_white_48dp.png" />
     <Content Include="Resources\outline_computer_black_48dp.png" />
     <None Include="Resources\TeoriV2-104989_small.jpg" />
+    <None Include="Resources\rasheed-kemy-vCjdQMXd9zU-unsplash.jpg" />
+    <None Include="Resources\tyler-lastovich-d0Sl3AH8Tlg-unsplash.jpg" />
+    <None Include="Resources\Untitled-1.png" />
+    <None Include="Resources\Untitled-2.png" />
+    <None Include="Resources\outline_done_white_48dp.png" />
     <Content Include="Resources\watch_s5_851x373_v21.png" />
     <None Include="Resources\xiaomi_huawei_851x373_v3.png" />
     <Content Include="Resources\_1119_d_u_x_273x313_panama_yayincilik.jpg" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

@@ -118,8 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="outline_computer_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\outline_computer_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ales-nesetril-Im7lZjxeLhg-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ales-nesetril-Im7lZjxeLhg-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_location_on_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_location_on_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="outline_alternate_email_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\outline_alternate_email_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,17 +130,23 @@
   <data name="b1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="outline_book_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\outline_book_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="julian-o-hayon-HY3l4IeOc3E-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\julian-o-hayon-HY3l4IeOc3E-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ge63-raider-20180110-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ge63-raider-20180110-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="outline_shopping_cart_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\outline_shopping_cart_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="twotone_exit_to_app_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\twotone_exit_to_app_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\watch_s5_851x373_v2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,14 +163,38 @@
   <data name="b4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="outline_smartphone_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_smartphone_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baseline_computer_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseline_computer_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="watch_s5_851x373_v21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\watch_s5_851x373_v21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\TeoriV2-104989_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baseline_list_alt_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseline_list_alt_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OriginalPng2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OriginalPng2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_perm_identity_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_perm_identity_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baseline_menu_open_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseline_menu_open_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="joshua-qualls-Qr23OCEm1ZI-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joshua-qualls-Qr23OCEm1ZI-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="macOS-Mojave-wallpaper-splash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\macOS-Mojave-wallpaper-splash1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flashsale" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flashsale.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kaffebase-g7_leR9phlU-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kaffebase-g7_leR9phlU-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="daniel-korpai-HyTwtsk8XqA-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\daniel-korpai-HyTwtsk8XqA-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\b3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,11 +202,17 @@
   <data name="outline_location_on_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\outline_location_on_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="c2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\macOS_Mojave_wallpaper_splash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1019_d_u_x_851x373_sahane_cuma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ge63_raider_20180110_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kasim_kitap_851x373_rev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="outline_lock_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\outline_lock_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,23 +220,32 @@
   <data name="p2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\p2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hd4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_book_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_book_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="p1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\p1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="p4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\p4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\_7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_home_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_home_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="outline_phone_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\outline_phone_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="flashsale" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\flashsale.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="black-hole-logo31417" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\black-hole-logo31417.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baseline_person_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\baseline_person_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_computer_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\outline_computer_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="outline_smartphone_white_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\outline_smartphone_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,35 +253,38 @@
   <data name="twotone_exit_to_app_white_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\twotone_exit_to_app_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="black-hole-logo31417" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\black-hole-logo31417.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baseline_person_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\baseline_person_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ge63-raider-20180110-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ge63-raider-20180110-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="outline_smartphone_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\outline_smartphone_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="matt-wojtas--baMCm2CLKM-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\matt-wojtas--baMCm2CLKM-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="OriginalPng1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\OriginalPng1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baseline_person_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\baseline_person_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baseline_bookmark_border_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseline_bookmark_border_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="outline_phone_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\outline_phone_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="outline_compare_arrows_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\outline_compare_arrows_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baseline_person_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\baseline_person_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kasim_kitap_851x373_rev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baseline_smartphone_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseline_smartphone_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1019_d_u_x_851x373_sahane_cuma.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_cake_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_cake_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="outline_lock_black_48dp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\outline_lock_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="baseline_list_alt_white_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baseline_list_alt_white_48dp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="OriginalPng2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OriginalPng2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_1119_d_u_x_273x313_panama_yayincilik" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\_1119_d_u_x_273x313_panama_yayincilik.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,29 +292,41 @@
   <data name="outline_lock_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\outline_lock_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="outline_perm_identity_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\outline_perm_identity_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_compare_arrows_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_compare_arrows_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="outline_computer_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_computer_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="outline_search_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\outline_search_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="outline_location_on_black_48dp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\outline_location_on_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ge63-raider-20180110-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ge63-raider-20180110-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="macOS-Mojave-wallpaper-splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\macOS-Mojave-wallpaper-splash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_lock_black_48dp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New Resources\outline_lock_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="macOS-Mojave-wallpaper-splash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\macOS-Mojave-wallpaper-splash1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="c4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TeoriV2-104989_small.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="outline_home_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\outline_home_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kaffebase-g7_leR9phlU-unsplash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kaffebase-g7_leR9phlU-unsplash1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xiaomi_huawei_851x373_v3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\OriginalPng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="tyler-lastovich-d0Sl3AH8Tlg-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tyler-lastovich-d0Sl3AH8Tlg-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rasheed-kemy-vCjdQMXd9zU-unsplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rasheed-kemy-vCjdQMXd9zU-unsplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\macOS_Mojave_wallpaper_splash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="macOS-Mojave-wallpaper-splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\macOS-Mojave-wallpaper-splash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="p3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\p3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -271,19 +334,19 @@
   <data name="outline_wc_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\New Resources\outline_wc_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hd4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="joshua-qualls-Qr23OCEm1ZI-unsplash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\joshua-qualls-Qr23OCEm1ZI-unsplash1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\b2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_done_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\outline_done_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="outline_cake_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\New Resources\outline_cake_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="daniel-korpai-HyTwtsk8XqA-unsplash1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\daniel-korpai-HyTwtsk8XqA-unsplash1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baseline_smartphone_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\baseline_smartphone_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="c3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\OriginalPng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="outline_computer_black_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\outline_computer_black_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="outline_cancel_white_48dp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\outline_cancel_white_48dp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

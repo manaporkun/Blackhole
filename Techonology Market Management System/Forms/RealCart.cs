@@ -1,40 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-
-using Techonology_Market_Management_System.Classes;
+using Blackhole.Classes;
+using Technology_Market_Management_System.Classes;
 
 namespace Techonology_Market_Management_System.Forms
 {
-    public partial class Payment: Form
+    public partial class Payment : Form
     {
         private static string mail;
-        CartClass cc = new CartClass();
-        PaymentDelivery pd = null;
-        Home home = new Home();
-        Login l = null;
-        User u = new User();
-        int totalPrice = 0;
-        DataGridViewButtonColumn col = new DataGridViewButtonColumn();
+        private readonly CartClass cc = new CartClass();
+        private DataGridViewButtonColumn col = new DataGridViewButtonColumn();
+        private readonly Home home = new Home();
+        private Login l;
+        private PaymentDelivery pd;
+        private int totalPrice = 0;
+        private readonly User u = new User();
+        private Order order = new Order();
 
         public Payment()
         {
             InitializeComponent();
             try
             {
-                var result = cc.Get(u.GetCustomerByEmail(mail).Rows[0][7].ToString());
+                var result = cc.Get(u.GetCustomerByEmail(mail).Rows[0][6].ToString());
                 if (result.Rows.Count > 0)
                 {
-                    int productNumber = cc.Get(u.GetCustomerByEmail(mail).Rows[0][7].ToString()).Rows.Count;
+                    var productNumber = cc.Get(u.GetCustomerByEmail(mail).Rows[0][6].ToString()).Rows.Count;
                 }
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -42,7 +37,6 @@ namespace Techonology_Market_Management_System.Forms
 
         private void AddButton()
         {
-           
             col = new DataGridViewButtonColumn();
             col.HeaderText = "";
             col.Text = "DELETE";
@@ -58,15 +52,13 @@ namespace Techonology_Market_Management_System.Forms
         public static void TakeEmail(string userMail)
         {
             mail = userMail;
-
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
             home.Show();
             //this.Hide();
-            this.Close();
-           
+            Close();
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -83,60 +75,54 @@ namespace Techonology_Market_Management_System.Forms
                 Close();
             }
             else
+            {
                 l = null;
+            }
         }
 
         private void cart_Click(object sender, EventArgs e)
         {
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if(dataGridView1.Rows.Count > 0)
+            if (dataGridView1.Rows.Count > 0)
             {
                 if (pd != null)
                 {
                     pd = null;
-
                 }
                 else
                 {
                     pd = new PaymentDelivery();
                     pd.Show();
-                    this.Close();
+                    Close();
                 }
             }
             else
             {
                 label5.Text = "You need to add product to continue.";
-                
             }
-
-           
         }
 
         private void Payment_Load(object sender, EventArgs e)
         {
             try
-            { 
+            {
                 //label2.Text = mail;
                 dataGridView1.Columns.Clear();
-                dataGridView1.DataSource = cc.Get(u.GetCustomerByEmail(mail).Rows[0][7].ToString());
+                dataGridView1.DataSource = cc.Get(u.GetCustomerByEmail(mail).Rows[0][6].ToString());
                 AddButton();
-            
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-                MessageBox.Show(u.GetCustomerByEmail(mail).Rows[0][7].ToString());
+                MessageBox.Show(u.GetCustomerByEmail(mail).Rows[0][6].ToString());
             }
-            
         }
 
         private void total_Click(object sender, EventArgs e)
         {
-
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -145,27 +131,27 @@ namespace Techonology_Market_Management_System.Forms
             {
                 if (e.ColumnIndex == dataGridView1.Columns.Count - 1 && e.RowIndex >= 0)
                 {
-                    string name = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
-                    string phonenumber = u.GetCustomerByEmail(mail).Rows[0][7].ToString();
+                    var name = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+                    var phonenumber = u.GetCustomerByEmail(mail).Rows[0][6].ToString();
+                    var userId = int.Parse(u.GetCustomerByEmail(mail).Rows[0][0].ToString());
 
                     if (cc.GetByName(phonenumber, name).Rows.Count > 0)
                     {
-                        
-                        int piece = int.Parse(cc.GetByName(phonenumber, name).Rows[0][2].ToString());
-                        if(piece > 1)
+                        var piece = int.Parse(cc.GetByName(phonenumber, name).Rows[0][2].ToString());
+                        if (piece > 1)
                         {
                             cc.UpdatePiece(piece - 1, name, phonenumber);
+                            order.UpdatePiece(piece - 1, name, userId);
                         }
-                       
                         else
                         {
                             cc.Delete(phonenumber, name);
+                            order.Delete(userId, name);
                         }
-
+                            
                     }
-                   
-                    Payment_Load(sender,e);
-                   
+
+                    Payment_Load(sender, e);
                 }
             }
             catch (Exception ex)

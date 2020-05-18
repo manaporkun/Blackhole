@@ -1,27 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+﻿using Blackhole.Properties;
+using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using Techonology_Market_Management_System.Classes;
+using Technology_Market_Management_System.Classes;
 
 namespace Techonology_Market_Management_System.Forms
 {
     public partial class Compare : Form
     {
-        Computers comp = new Computers();
-        SmartPhones sp = new SmartPhones();
-        Home home;
-        DataGridViewButtonColumn col;
-        string selection = "Computers";
-        bool product1_selected = false;
-        bool product2_selected = false;
-        bool menu = false;
-
+        private DataGridViewButtonColumn _col;
+        private readonly Computers _comp = new Computers();
+        private Home _home;
+        private bool _menu;
+        private bool _product1Selected;
+        private bool _product2Selected;
+        private string _selection = "Computers";
+        private readonly SmartPhones _sp = new SmartPhones();
 
         public Compare()
         {
@@ -30,14 +24,13 @@ namespace Techonology_Market_Management_System.Forms
 
         private void Compare_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = comp.GetShort();
+            dataGridView1.DataSource = _comp.GetShort();
             AddButton();
             GetProperties(0, 1);
             groupBox5.Hide();
-
         }
 
-        private void GetProperties(int row1,int row2)
+        private void GetProperties(int row1, int row2)
         {
             c1name.Text = dataGridView1.Rows[row1].Cells[0].Value.ToString();
             c1brand.Text = dataGridView1.Rows[row1].Cells[3].Value.ToString();
@@ -58,9 +51,6 @@ namespace Techonology_Market_Management_System.Forms
             label43.Text = dataGridView1.Rows[row2].Cells[8].Value.ToString();
             label44.Text = dataGridView1.Rows[row2].Cells[2].Value.ToString();
             label36.Text = dataGridView1.Rows[row2].Cells[1].Value.ToString();
-
-
-
         }
 
         private void GetComp1(int row1)
@@ -102,7 +92,6 @@ namespace Techonology_Market_Management_System.Forms
             label7.Text = "";
             label8.Text = dataGridView1.Rows[row1].Cells[2].Value.ToString();
             label13.Text = "";
-            
         }
 
         private void GetPhone2(int row2)
@@ -113,76 +102,68 @@ namespace Techonology_Market_Management_System.Forms
             label42.Text = dataGridView1.Rows[row2].Cells[6].Value.ToString();
             label39.Text = dataGridView1.Rows[row2].Cells[7].Value.ToString();
             label40.Text = dataGridView1.Rows[row2].Cells[4].Value.ToString();
-            label41.Text = dataGridView1.Rows[row2].Cells[5].Value.ToString();            
+            label41.Text = dataGridView1.Rows[row2].Cells[5].Value.ToString();
             label43.Text = "";
             label44.Text = dataGridView1.Rows[row2].Cells[2].Value.ToString();
             label26.Text = "Screen Type";
             label10.Text = "";
-
         }
 
         private void AddButton()
         {
-            //dataGridView1.Columns.Clear();
 
-            col = new DataGridViewButtonColumn();
-            col.HeaderText = "";
-            col.Text = "SELECT";
-            col.UseColumnTextForButtonValue = true;
-            col.Width = 120;
-            col.DefaultCellStyle.ForeColor = Color.WhiteSmoke;
-            col.DefaultCellStyle.BackColor = Color.DarkCyan;
-            col.FlatStyle = FlatStyle.Flat;
-            col.DisplayIndex = dataGridView1.Columns.Count + 1;
-            dataGridView1.Columns.Add(col);
+            _col = new DataGridViewButtonColumn
+            {
+                HeaderText = "",
+                Text = "SELECT",
+                UseColumnTextForButtonValue = true,
+                Width = 120,
+                DefaultCellStyle = {ForeColor = Color.WhiteSmoke, BackColor = Color.DarkCyan},
+                FlatStyle = FlatStyle.Flat,
+                DisplayIndex = dataGridView1.Columns.Count + 1
+            };
+            dataGridView1.Columns.Add(_col);
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             try
             {
-                if (e.ColumnIndex == dataGridView1.Columns.Count - 1 && e.RowIndex >= 0)
+                if (e.ColumnIndex != dataGridView1.Columns.Count - 1 || e.RowIndex < 0) return;
+                if (_product1Selected == false)
                 {
+                    switch (_selection)
+                    {
+                        case "Computers":
+                            GetComp1(e.RowIndex);
+                            break;
 
-                    if (product1_selected == false)
-                    {
-                        switch (selection)
-                        {
-                            case "Computers":
-                                GetComp1(e.RowIndex);
-                                break;
-                            case "SmartPhones":
-                                GetPhone1(e.RowIndex);
-                                break;
-                            default:
-                                break;
-                            
-                        }
-                        
-                        product1_selected = true;
+                        case "SmartPhones":
+                            GetPhone1(e.RowIndex);
+                            break;
                     }
-                    else if(product2_selected == false)
-                    {
-                        switch (selection)
-                        {
-                            case "Computers":
-                                GetComp2(e.RowIndex);
-                                break;
-                            case "SmartPhones":
-                                GetPhone2(e.RowIndex);
-                                break;
-                            default:
-                                break;
 
-                        }
-                        product2_selected = true;
-                        
-                    }
-                    else
+                    _product1Selected = true;
+                }
+                else if (_product2Selected == false)
+                {
+                    switch (_selection)
                     {
-                        product1_selected = false;
-                        product2_selected = false;
+                        case "Computers":
+                            GetComp2(e.RowIndex);
+                            break;
+
+                        case "SmartPhones":
+                            GetPhone2(e.RowIndex);
+                            break;
                     }
+
+                    _product2Selected = true;
+                }
+                else
+                {
+                    _product1Selected = false;
+                    _product2Selected = false;
                 }
             }
             catch (Exception ex)
@@ -195,24 +176,21 @@ namespace Techonology_Market_Management_System.Forms
         {
             try
             {
-                
-                string name = textBox1.Text.Trim();
+                var name = textBox1.Text.Trim();
                 dataGridView1.Columns.Clear();
 
-                switch (selection)
+                switch (_selection)
                 {
                     case "Computers":
-                        dataGridView1.DataSource = comp.GetShortByName(name);
+                        dataGridView1.DataSource = _comp.GetShortByName(name);
                         break;
+
                     case "SmartPhones":
-                        dataGridView1.DataSource = sp.GetShortByName(name);
-                        break;
-                    default:
+                        dataGridView1.DataSource = _sp.GetShortByName(name);
                         break;
                 }
 
                 AddButton();
-
             }
             catch (Exception ex)
             {
@@ -222,13 +200,16 @@ namespace Techonology_Market_Management_System.Forms
 
         private void button6_Click(object sender, EventArgs e)
         {
-            if (home == null)
+            if (_home == null)
             {
-                home = new Home();
-                home.Show();
-                this.Close();
+                _home = new Home();
+                _home.Show();
+                Close();
             }
-            else home = null;
+            else
+            {
+                _home = null;
+            }
         }
 
         private void label11_Click(object sender, EventArgs e)
@@ -238,34 +219,34 @@ namespace Techonology_Market_Management_System.Forms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            selection = "Computers";
+            _selection = "Computers";
             dataGridView1.Columns.Clear();
-            dataGridView1.DataSource = comp.GetShort();
-            c1picture.Image = Techonology_Market_Management_System.Properties.Resources.outline_computer_black_48dp;
-            pictureBox4.Image = Techonology_Market_Management_System.Properties.Resources.outline_computer_black_48dp;
+            dataGridView1.DataSource = _comp.GetShort();
+            c1picture.Image = Resources.outline_computer_black_48dp;
+            pictureBox4.Image = Resources.outline_computer_black_48dp;
             AddButton();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            selection = "SmartPhones";
+            _selection = "SmartPhones";
             dataGridView1.Columns.Clear();
-            dataGridView1.DataSource = sp.GetShort();
-            c1picture.Image = Techonology_Market_Management_System.Properties.Resources.baseline_smartphone_black_48dp;
-            pictureBox4.Image = Techonology_Market_Management_System.Properties.Resources.baseline_smartphone_black_48dp;
+            dataGridView1.DataSource = _sp.GetShort();
+            c1picture.Image = Resources.baseline_smartphone_black_48dp;
+            pictureBox4.Image = Resources.baseline_smartphone_black_48dp;
             AddButton();
         }
 
         private void menubutton_Click(object sender, EventArgs e)
         {
-            if(menu == false)
+            if (_menu == false)
             {
-                menu = true;
+                _menu = true;
                 groupBox5.Show();
             }
             else
             {
-                menu = false;
+                _menu = false;
                 groupBox5.Hide();
             }
         }

@@ -117,4 +117,77 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="bunifuElipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tbAdmins.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAd1JREFUaEPt
+        mCFSw0AUhisqOQACgegBegAEMwgO0IMgEZWViIpKZAUCiUAgKis4AAJRUYFAIhCI8P/ZPzMJTWZ2N9vZ
+        DbPfzJu2m93X72WTTbejTCaTyWRCUBTFBLFAbBE7xQYxR5yqW3pAboxYIX4QXXwj5hqSDpCiPM+yLWsN
+        TQMI3RsvJ9KYCYhMjY8zvJzi3xOQ8Dn7FfFnARJcZXzZKE08JOLLTmniIRFf9koTD0h8GBcvtkoTD0is
+        jYsXC6WJByQujYszfGJPlCYuEHkqldxYaXh8IHOCeCu17ODPjrGGpwGEWITNTPDBl5Z8HcjxnuCNXV+d
+        +LCj+FTdMoMDszdD3OnjsJB8tVFaqnkYQLguXxF2JpCQK9A14hbBG7jaD+/1eqOuTmBcmzw/z9TFHyQ5
+        Q3Cj/qqkXXhNOcYdRx4JuEy+MJsF6chjMM/4MzNZ0iqPdl5mnVtJHLtCBJe/QHwykyVd8ktzuPzZcVAE
+        2vg9X+xQo7f8OSKkfEWjCLxvkye9r/kHk8ea1hUH7Y/mcIOyCESXvNfq1QBJfHZcB1+MNv751VbEO+I4
+        8kTJfHAp4i9h5IkS+uJTRDh5oqR9cCkirDxR4r7YFBFe/thAuipiePKZTCbznxiNfgEy8LxnxrWuAwAA
+        AABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="tbUsers.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAYdJREFUaEPt
+        l6FSw0AURSMqEAgkAoGoQPYDEDg+B4FAVFbwAZXICiQCgUBUICr4AASiAoHgAxCIcG/2ZiaCMslLmrfi
+        nZnrujcnu9mkWwRBEATBkJRlOUUWyAbZKmtkjhzrZ/kBuQmyRH6QXXwjcw3JB0hRnrPclpWG5gGE7pJX
+        J/JYCYjMkk9n+Dj57wlIWGa/xn8VIMG3jJW1avyQiJWtavyQiJUP1fgBic/kYmKjGj8gsUouJhaq8QMS
+        F8mlM/xiT1XjC0QeK6VuLDXcH8gcIm+VVjv4t2Oi4XkAId5Em5Xghy8v+SaQ457gxm6+nfixo/hMPwuC
+        ICewOfkGukRuEG7g5nm4zgvCjXyNcKMfaLgPEDhFeFB/Rf47B++CBxre1BUy3sEGF+PsPSNDwgl4QPb3
+        mkX5CfKE7Bs+gke67DCg8Bz5YvtIcM+c6fL9QBGf9THla96R/iuBkvuqzodbadhBSZ8TV1/6n9hU5IY0
+        7KjHDWnYUY8b0rCjHjekEQRBEAR/UBS/jJuWeBIgYSoAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="tbMusicBook.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAZtJREFUaEPt
+        2SFOA2EQhuFKJAeo6BEQ3IGDcAiOUYnoAZAcoAdAViAQCA6AQCAR5dvdl0lJIJN8Aztmn+RP6OTn7RQQ
+        NF0tFovc8Xhc6+x0HnX+20Fnq3PO09cotNF505nbi079RShyP+Z6bFnDp0jHT//LgTV8hALjFNfLyPno
+        BMYprpeR89EJjFNcLyPnoxMYp7heRs5HJzBOcb2MnI9OYJziehk5H53AOMX1MnI+OoFxiutl5Hx0AuMU
+        18vI+egEximul5Hz0QmMU1wvI+ejExinuF5GzkcnME5xvYycj05gPNLD4Y3Onc6tzrf/3fX4T5Dz0QnM
+        znRudN6HGV51rsdvkmlUR85H59SVzvP05Y8edC6nL+tYw0enDWv46LRhDR+dNqzho9OGNXx02rCGj04b
+        1vDRacMaPjptWMNHpw1r+Oi0YQ0fnTas4aPThjV8dNqwho9OG9bw0WnDGj46bVjDp8bpu665PbGGT5H9
+        1GqxYw2fIhc6H2NuXsNHW2vWqFFoeBHDb2KOP6dh8eGDxQ1Pv1gsfrVafQKmgKGQAnXptgAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="tbSmartphones.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAYJJREFUaEPt
+        2aFRg1EUhNEUgKAAREqgSyQFUAQFUEQEAoGgBAQSEe6fHLaCzZvJTM7MMyu+CwGX3c01OR6PD/Ne5r3P
+        +yq/w7yneXfOdU14P+973qV9zrt3tmeir6f8Gs/O9kx0xaf/7+Bsj/AyzvboLuNsj+4yzvboLuNsj26Y
+        a2TD3KMb5hrZMPfohrlGNsw9umGukQ1zj26Ya2TD3KMb5hrZMPfohrlGNsw9umGukQ1zj26Ya2TD3KMb
+        5hrZMPfohrlGNsw9umGukQ1zj26Ya2TD3KMb5hrZMPfohrlGNsw9umGukQ1zj26Ya2TD3KMb5hrZMPfo
+        hrlGNsw9umGukQ1zj26Ya2TD3KMb5hrZMPfohrlGNsw9umGukQ1zj26Ya2TD3KMb5hrZMPfohrlGNsw9
+        umGukQ1zj+4yzvboLuNsj+4yzvboLuNszzR/zuklPpztmejbub3Ei7M9E32c93vKX9b2de6Ds10T3n6J
+        7S9xiX+n7QffvkzfO3dzBXa7P1B2WJefNyJHAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="bunifuElipse2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>141, 17</value>
+  </metadata>
+  <metadata name="bunifuElipse3.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>265, 17</value>
+  </metadata>
+  <metadata name="bunifuElipse4.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>389, 17</value>
+  </metadata>
+  <metadata name="bunifuElipse5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>513, 17</value>
+  </metadata>
+  <metadata name="bunifuElipse6.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>637, 17</value>
+  </metadata>
+  <metadata name="bunifuElipse7.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>761, 17</value>
+  </metadata>
 </root>

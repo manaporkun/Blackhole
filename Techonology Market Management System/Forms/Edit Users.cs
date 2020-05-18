@@ -1,61 +1,84 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-//using Technology_Market_Management_System;
+using System.Drawing;
+using System.IO;
+using Blackhole.Classes;
+using Technology_Market_Management_System.Classes;
 using Techonology_Market_Management_System.Classes;
+
+//using Technology_Market_Management_System;
 
 namespace Techonology_Market_Management_System.Forms
 {
-    public partial class Edit_Users : Form
+    public partial class EditUsers : Form
     {
-        User u = new User();
-        Admin_Panel Admin_Panel;
-        public Edit_Users()
+        private AdminPanel _adminPanel;
+        private readonly User _u = new User();
+        private Order order = new Order();
+        private byte[] img = null;
+        private string imgLoc = "";
+
+        public EditUsers()
         {
             InitializeComponent();
-            
         }
 
         private void Edit_Users_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = u.Get("Customer");
-            
+            dataGridView1.DataSource = _u.Get("Customer");
+            dataGridView2.DataSource = order.Get();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            int id = int.Parse(textBox1.Text.Trim());
-            u.Delete(id, "Customer");
+            var id = int.Parse(textBox1.Text.Trim());
+            _u.Delete(id, "Customer");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             try
             {
-                int id = int.Parse(textBox1.Text.Trim());
-                tID.Text = u.GetByID(id, "Customer").Rows[0][0].ToString();
-                tName.Text = u.GetByID(id, "Customer").Rows[0][1].ToString();
-                tSurname.Text = u.GetByID(id, "Customer").Rows[0][2].ToString();
-                tEmail.Text = u.GetByID(id, "Customer").Rows[0][3].ToString();
-                tPassword.Text = u.GetByID(id, "Customer").Rows[0][4].ToString();
-                tAdress.Text = u.GetByID(id, "Customer").Rows[0][5].ToString();
-                maskedTextBox1.Text = u.GetByID(id, "Customer").Rows[0][7].ToString();
-               // dateTimePicker1.Value = u.GetByID(id, "Customer").Rows[0][8].ToString();
-                string gender = u.GetByID(id, "Customer").Rows[0][6].ToString();
-                if(gender == "Male")
+                var id = int.Parse(textBox1.Text.Trim());
+
+                if (_u.GetById(id,"Customer").Rows.Count < 1)
                 {
-                    rbMale.Checked = true;
+                    MessageBox.Show("There is no user with ID: " + id);
                 }
                 else
                 {
-                    rbFemale.Checked = true;
+                    byte[] img;
+                    if (_u.GetById(id, "Customer").Rows[0][11].ToString() != "NULL")
+                    {
+
+                        img = (byte[])(_u.GetById(id, "Customer").Rows[0][11]);
+                        if (img == null)
+                        {
+                            userPicture.Image = null;
+                        }
+                        else
+                        {
+                            var ms = new MemoryStream(img);
+                            userPicture.Image = Image.FromStream(ms);
+
+                        }
+                    }
+
+                    tID.Text = _u.GetById(id, "Customer").Rows[0][0].ToString();
+                    tName.Text = _u.GetById(id, "Customer").Rows[0][1].ToString();
+                    tSurname.Text = _u.GetById(id, "Customer").Rows[0][2].ToString();
+                    tEmail.Text = _u.GetById(id, "Customer").Rows[0][3].ToString();
+                    tPassword.Text = _u.GetById(id, "Customer").Rows[0][4].ToString();
+                    tAdress.Text = _u.GetById(id, "Customer").Rows[0][5].ToString();
+                    maskedTextBox1.Text = _u.GetById(id, "Customer").Rows[0][6].ToString();
+                    dateTimePicker1.Value = Convert.ToDateTime(_u.GetById(id, "Customer").Rows[0][10].ToString());
+                    var gender = _u.GetById(id, "Customer").Rows[0][9].ToString();
+                    if (gender == "Male")
+                        rbMale.Checked = true;
+                    else
+                        rbFemale.Checked = true;
                 }
+                
             }
             catch (Exception ex)
             {
@@ -67,9 +90,10 @@ namespace Techonology_Market_Management_System.Forms
         {
             try
             {
-                string gender = "";
-                var phoneNumber = maskedTextBox1.Text.Trim();
-                var dob = dateTimePicker1.Value.ToString();
+                var gender = "";
+                maskedTextBox1.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
+                var phoneNumber = maskedTextBox1.Text;
+                var dob = dateTimePicker1.Value.Date.ToShortDateString();
                 var passw = tPassword.Text.Trim();
                 var name = tName.Text.Trim();
                 var surname = tSurname.Text.Trim();
@@ -81,44 +105,97 @@ namespace Techonology_Market_Management_System.Forms
                 else if (rbFemale.Checked)
                     gender = "Female";
 
-        
 
-                u.UpdateAdmin(id,name,surname,email,passw,address,gender,phoneNumber,dob);
-                dataGridView1.DataSource = u.Get("Customer");
+                _u.UpdateAdmin(id, name, surname, email, passw, address, gender, phoneNumber, dob);
+                var imgCon = new ImageConverter();
+                
+                _u.AddImage(id, (byte[])imgCon.ConvertTo(userPicture.Image, typeof(byte[])), "Customer");
+                dataGridView1.DataSource = _u.Get("Customer");
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-            
-
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            button3_Click(sender,e);
+            button3_Click(sender, e);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (Admin_Panel == null)
+            if (_adminPanel == null)
             {
-                Admin_Panel = new Admin_Panel();
-                Admin_Panel.Show();
-                this.Close();
+                _adminPanel = new AdminPanel();
+                _adminPanel.Show();
+                Close();
             }
-            else Admin_Panel = null;
+            else
+            {
+                _adminPanel = null;
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             pictureBox1_Click(sender, e);
-
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             Edit_Users_Load(sender, e);
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                var id = int.Parse(textBox1.Text.Trim());
+                dataGridView2.DataSource = order.GetById(id);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void browse_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var dlg = new OpenFileDialog();
+                dlg.Filter = "JPEG Files (*.jpg)|*.jpg|All Files(*.*)|*.*";
+                dlg.Title = "Select Computer Picture";
+                if (dlg.ShowDialog() != DialogResult.OK) return;
+                imgLoc = dlg.FileName;
+                userPicture.ImageLocation = imgLoc;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

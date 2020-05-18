@@ -1,4 +1,6 @@
-﻿namespace Techonology_Market_Management_System.Forms
+﻿using Blackhole.Properties;
+
+namespace Techonology_Market_Management_System.Forms
 {
     partial class Compare
     {
@@ -795,7 +797,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox2.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.black_hole_logo31417;
+            this.pictureBox2.BackgroundImage = Resources.black_hole_logo31417;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(-1, 0);
             this.pictureBox2.Name = "pictureBox2";

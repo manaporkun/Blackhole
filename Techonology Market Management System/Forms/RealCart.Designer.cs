@@ -1,4 +1,6 @@
-﻿namespace Techonology_Market_Management_System.Forms
+﻿using Blackhole.Properties;
+
+namespace Techonology_Market_Management_System.Forms
 {
     partial class Payment
     {
@@ -177,7 +179,7 @@
             // button3
             // 
             this.button3.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button3.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.flashsale;
+            this.button3.BackgroundImage = Resources.flashsale;
             this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -191,7 +193,7 @@
             // button6
             // 
             this.button6.BackColor = System.Drawing.Color.DarkCyan;
-            this.button6.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.outline_home_white_48dp;
+            this.button6.BackgroundImage = Resources.outline_home_white_48dp;
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -206,7 +208,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.DarkCyan;
-            this.button1.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.twotone_exit_to_app_white_48dp1;
+            this.button1.BackgroundImage = Resources.twotone_exit_to_app_white_48dp1;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.DarkCyan;
@@ -223,7 +225,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.DarkCyan;
-            this.pictureBox2.BackgroundImage = global::Techonology_Market_Management_System.Properties.Resources.black_hole_logo31417;
+            this.pictureBox2.BackgroundImage = Resources.black_hole_logo31417;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(0, 0);
             this.pictureBox2.Name = "pictureBox2";

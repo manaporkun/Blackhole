@@ -1,40 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows.Forms;
-using Techonology_Market_Management_System.Classes;
+using Blackhole.Classes;
+using Technology_Market_Management_System.Classes;
 
 namespace Techonology_Market_Management_System.Forms
 {
     public partial class Edit_MusicBook : Form
     {
-        Admin_Panel Admin_Panel;
-        MusicBook MusicBook = new MusicBook();
+        private readonly MusicBook _musicBook = new MusicBook();
+        private AdminPanel _adminPanel;
+        private string imgLoc = "";
+        byte[] img = null;
 
         public Edit_MusicBook()
         {
             InitializeComponent();
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            if (Admin_Panel == null)
+            if (_adminPanel == null)
             {
-                Admin_Panel = new Admin_Panel();
-                Admin_Panel.Show();
-                this.Close();
+                _adminPanel = new AdminPanel();
+                _adminPanel.Show();
+                Close();
             }
-            else Admin_Panel = null;
+            else
+            {
+                _adminPanel = null;
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -44,50 +40,112 @@ namespace Techonology_Market_Management_System.Forms
 
         private void Edit_MusicBook_Load(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = MusicBook.Get("MusicBook");
+            dataGridView1.DataSource = _musicBook.Get("MusicBook");
+            Error.Text = "";
         }
 
-        private void search_Click(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Edit_MusicBook_Load(sender, e);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
             try
             {
-                if (searchID.Text.Trim() == "" && searchName.Text.Trim() == "")
-                    searchError.Text = "Parameters can not be empty.";
+                //var id = int.Parse(tID.Text);
+                var name = tName.Text;
+                var price = int.Parse(tPrice.Text);
+                var piece = int.Parse(tPiece.Text);
+                var date = tDate.Text;
+                var producer = tProducer.Text;
+                var author = tAuthor.Text;
+                var result = _musicBook.GetByName(name, "Computers");
+                var fs = new FileStream(imgLoc, FileMode.Open, FileAccess.Read);
+                var br = new BinaryReader(fs);
+                img = br.ReadBytes((int)fs.Length);
+
+                if (result.Rows.Count > 0)
+                {
+                    lberror.ForeColor = Color.Red;
+                    searchError.Text = CommonFunctions.ReturnString("exist");
+                }
+
                 else
                 {
-                    if (searchID.Text.Trim() != "" && searchName.Text.Trim() == "")
-                    {
-                        dataGridView1.DataSource = MusicBook.GetByID(int.Parse(searchID.Text.Trim()), "MusicBook");
-                        tID.Text = MusicBook.GetByID(int.Parse(searchID.Text.Trim()), "MusicBook").Rows[0][0].ToString();
-                        tName.Text = MusicBook.GetByID(int.Parse(searchID.Text.Trim()), "MusicBook").Rows[0][1].ToString();
-                        tPrice.Text = MusicBook.GetByID(int.Parse(searchID.Text.Trim()), "MusicBook").Rows[0][3].ToString();
-                        tPiece.Text = MusicBook.GetByID(int.Parse(searchID.Text.Trim()), "MusicBook").Rows[0][4].ToString();
-                        tDate.Text = MusicBook.GetByID(int.Parse(searchID.Text.Trim()), "MusicBook").Rows[0][5].ToString();
-                        tAuthor.Text = MusicBook.GetByID(int.Parse(searchID.Text.Trim()), "MusicBook").Rows[0][7].ToString();
-                        
-                        tProducer.Text = MusicBook.GetByID(int.Parse(searchID.Text.Trim()), "MusicBook").Rows[0][6].ToString();
-                        
+                    _musicBook.Add(name, "MusicBook", price, piece, date, producer, author);
+                    _musicBook.AddImage(int.Parse(_musicBook.GetByName(name, "MusicBook").Rows[0][0].ToString()), img, "MusicBook");
+                    lberror.ForeColor = Color.Green;
+                    lberror.Text = CommonFunctions.ReturnString("success");
+                }
+                    
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var id = int.Parse(tID.Text);
+            var name = tName.Text;
+            var price = int.Parse(tPrice.Text);
+            var piece = int.Parse(tPiece.Text);
+            var date = tDate.Text;
+            var producer = tProducer.Text;
+            var author = tAuthor.Text;
+            var fs = new FileStream(imgLoc, FileMode.Open, FileAccess.Read);
+            var br = new BinaryReader(fs);
+            img = br.ReadBytes((int)fs.Length);
+            _musicBook.Update(id, name, "MusicBook", price, piece, date, producer, author);
+            _musicBook.AddImage(id, img, "MusicBook");
+        }
+
+        private void search_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                Error.Text = "";
+                if (searchID.Text.Length == 0 && searchName.Text.Length == 0)
+                {
+                    searchError.Text = CommonFunctions.ReturnString("empty");
+                }
+                else
+                {
+                    if (searchID.Text.Length != 0 && searchName.Text.Length == 0)
+                    {
+                        
+                        var id = int.Parse(searchID.Text.Trim());
+                        byte[] img;
+                        if (_musicBook.GetById(id, "MusicBook").Rows[0][8].ToString() != "NULL")
+                        {
+
+                            img = (byte[])(_musicBook.GetById(id, "MusicBook").Rows[0][8]);
+                            if (img == null)
+                            {
+                                productPicture.Image = null;
+                            }
+                            else
+                            {
+                                var ms = new MemoryStream(img);
+                                productPicture.Image = Image.FromStream(ms);
+
+                            }
+                        }
+                        CommonFunctions.GetMusicBookById(dataGridView1, id, tID, tName, tPrice, tPiece, tDate, tAuthor, tProducer);
                     }
 
-                    else if (searchID.Text.Trim() == "" && searchName.Text.Trim() != "")
+                    else if (searchID.Text.Length == 0 && searchName.Text.Length != 0)
                     {
-                        dataGridView1.DataSource = MusicBook.GetByName(searchName.Text.Trim(), "MusicBook");
-                        tID.Text = MusicBook.GetByName(searchName.Text.Trim(), "MusicBook").Rows[0][0].ToString();
-                        tName.Text = MusicBook.GetByName(searchName.Text.Trim(), "MusicBook").Rows[0][1].ToString();
-                        tPrice.Text = MusicBook.GetByName(searchName.Text.Trim(), "MusicBook").Rows[0][3].ToString();
-                        tPiece.Text = MusicBook.GetByName(searchName.Text.Trim(), "MusicBook").Rows[0][4].ToString();
-                        tDate.Text = MusicBook.GetByName(searchName.Text.Trim(), "MusicBook").Rows[0][5].ToString();
-                        
-                        tProducer.Text = MusicBook.GetByName(searchName.Text.Trim(), "MusicBook").Rows[0][6].ToString();
-                        
-                        tAuthor.Text = MusicBook.GetByName(searchName.Text.Trim(), "MusicBook").Rows[0][7].ToString();
-                        
+                        var name = searchName.Text.Trim();
+                        CommonFunctions.GetMusicBookByName(dataGridView1, name, tID, tName, tPrice, tPiece, tDate, tAuthor, tProducer);
                     }
 
                     else
-                        searchError.Text = "You can only search with only one parameter";
-
+                    {
+                        searchError.Text = CommonFunctions.ReturnString("one");
+                    }
                 }
             }
             catch (Exception ex)
@@ -96,34 +154,22 @@ namespace Techonology_Market_Management_System.Forms
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void browse_Click(object sender, EventArgs e)
         {
+            try
+            {
+                var dlg = new OpenFileDialog();
+                dlg.Filter = "JPEG Files (*.jpg)|*.jpg|All Files(*.*)|*.*";
+                dlg.Title = "Select Computer Picture";
+                if (dlg.ShowDialog() != DialogResult.OK) return;
+                imgLoc = dlg.FileName;
+                productPicture.ImageLocation = imgLoc;
 
-            int id = int.Parse(tID.Text);
-            string name = tName.Text;
-            int price = int.Parse(tPrice.Text);
-            int piece = int.Parse(tPiece.Text);
-            string date = tDate.Text;
-            string producer = tProducer.Text;
-            string author = tAuthor.Text;
-            MusicBook.Update(id,name,"MusicBook",price,piece,date,producer,author);
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            int id = int.Parse(tID.Text);
-            string name = tName.Text;
-            int price = int.Parse(tPrice.Text);
-            int piece = int.Parse(tPiece.Text);
-            string date = tDate.Text;
-            string producer = tProducer.Text;
-            string author = tAuthor.Text;
-            MusicBook.Add(name,"MusicBook",price,piece,date,producer,author);
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            Edit_MusicBook_Load(sender, e);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

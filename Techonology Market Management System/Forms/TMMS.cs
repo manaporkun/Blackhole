@@ -1,37 +1,35 @@
-﻿using System.Windows.Forms;
+﻿using System;
+using System.Windows.Forms;
 
 namespace Techonology_Market_Management_System.Forms
 {
     public partial class TMMS : Form
     {
-        Login l = null;
-        Register r = null;
+        private Login l = null;
+        private Register r;
+
         public TMMS()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, System.EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-
         }
 
-
-
-        private void label1_Click_1(object sender, System.EventArgs e)
+        private void label1_Click_1(object sender, EventArgs e)
         {
-            this.Close();
-            
+            Close();
         }
 
-        private void button1_Click_1(object sender, System.EventArgs e)
+        private void button1_Click_1(object sender, EventArgs e)
         {
             if (r == null)
             {
                 r = new Register();
                 r.Show();
                 // this.Hide();
-                this.WindowState = FormWindowState.Minimized;
+                WindowState = FormWindowState.Minimized;
             }
             else
             {
@@ -41,16 +39,15 @@ namespace Techonology_Market_Management_System.Forms
 
         public static void ChangeWindowsState(int state)
         {
-            switch (state){
+            switch (state)
+            {
                 case 1:
-                    TMMS.ActiveForm.Show();
-                    break;
-                case 2:
-                    TMMS.ActiveForm.WindowState = FormWindowState.Normal;
-                    break;
-                default:
+                    ActiveForm.Show();
                     break;
 
+                case 2:
+                    ActiveForm.WindowState = FormWindowState.Normal;
+                    break;
             }
         }
     }

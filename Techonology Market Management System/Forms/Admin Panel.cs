@@ -1,117 +1,116 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Blackhole.Forms;
 using Techonology_Market_Management_System.Forms;
 
 namespace Techonology_Market_Management_System
 {
-    public partial class Admin_Panel : Form
+    public partial class AdminPanel : DevExpress.XtraEditors.XtraForm
     {
-        private Edit_Product editProduct = null;
-        private Edit_MusicBook edit_MusicBook = null;
-        private Edit_SmartPhones Edit_SmartPhones = null;
-        private Edit_Users edit_Users = null;
-        private Edit_Employees edit_Employees = null;
-        private TMMS tMMS;
+        private EditEmployees _editEmployees;
+        private Edit_MusicBook _editMusicBook;
+        private Edit_Product _editProduct;
+        private Edit_SmartPhones _editSmartPhones;
+        private EditUsers _editUsers;
+        private TMMS _tMms;
 
-        public Admin_Panel()
+        public AdminPanel()
         {
             InitializeComponent();
         }
 
         private void Admin_Panel_Load(object sender, EventArgs e)
         {
-            label4.Text = "";
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            //TMMS.ChangeWindowsState(1);
-        }
-
-       
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (cb.SelectedIndex == 0)
-            {
-                if (editProduct == null)
-                {
-                    editProduct = new Edit_Product();
-                    editProduct.Show();
-                }
-                else
-                    editProduct = null;
-            }
-            else if (cb.SelectedIndex == 1)
-            {
-                if (Edit_SmartPhones == null)
-                {
-                    Edit_SmartPhones = new Edit_SmartPhones();
-                    Edit_SmartPhones.Show();
-                }
-                else
-                    Edit_SmartPhones = null;
-
-            }
-            else if (cb.SelectedIndex == 2)
-            {
-                if (edit_MusicBook == null)
-                {
-                    edit_MusicBook = new Edit_MusicBook();
-                    edit_MusicBook.Show();
-                }
-                else
-                    edit_MusicBook = null;
-
-            }
-
-            else if (cb.SelectedIndex == 3)
-            {
-                if (edit_Users == null)
-                {
-                    edit_Users = new Edit_Users();
-                    edit_Users.Show();
-                }
-                else
-                    edit_Users = null;
-
-            }
-            else if (cb.SelectedIndex == 4)
-            {
-                if (edit_Employees == null)
-                {
-                    edit_Employees = new Edit_Employees();
-                    edit_Employees.Show();
-                }
-                else
-                    edit_Employees = null;
-
-            }
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            if (tMMS == null)
+            if (_tMms == null)
             {
                 TMMS.ChangeWindowsState(1);
-                this.Close();
+                Close();
             }
             else
-                tMMS = null;
-
+            {
+                _tMms = null;
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
             pictureBox1_Click(sender, e);
-            this.Close();
+            Close();
+        }
+
+        private void tbUsers_Click(object sender, EventArgs e)
+        {
+            if (_editUsers == null)
+            {
+                _editUsers = new EditUsers();
+                this.Close();
+                _editUsers.Show();
+            }
+            else
+            {
+                _editUsers = null;
+            }
+        }
+
+        private void tbComputers_Click(object sender, EventArgs e)
+        {
+            if (_editProduct == null)
+            {
+                _editProduct = new Edit_Product();
+                this.Close();
+                _editProduct.Show();
+            }
+            else
+            {
+                _editProduct = null;
+            }
+        }
+
+        private void tbAdmins_Click(object sender, EventArgs e)
+        {
+            if (_editEmployees == null)
+            {
+                _editEmployees = new EditEmployees();
+                this.Close();
+                _editEmployees.Show();
+            }
+            else
+            {
+                _editEmployees = null;
+            }
+        }
+
+        private void tbSmartphones_Click(object sender, EventArgs e)
+        {
+            if (_editSmartPhones == null)
+            {
+                _editSmartPhones = new Edit_SmartPhones();
+                this.Close();
+                _editSmartPhones.Show();
+            }
+            else
+            {
+                _editSmartPhones = null;
+            }
+        }
+
+        private void tbMusicBook_Click(object sender, EventArgs e)
+        {
+            if (_editMusicBook == null)
+            {
+                _editMusicBook = new Edit_MusicBook();
+                this.Close();
+                _editMusicBook.Show();
+            }
+            else
+            {
+                _editMusicBook = null;
+            }
         }
     }
 }

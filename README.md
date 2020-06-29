@@ -75,7 +75,7 @@ Functional Requirements
 Software Development Environment
 
     • Windows Forms application
-    • SQLITE for database
+    • MS SQL for database
     • Programming Language: C#
     • IDE: Visual Studios 2019
     

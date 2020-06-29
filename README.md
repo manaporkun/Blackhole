@@ -61,11 +61,7 @@ Functional Requirements
         • View all products.
         • Search a product with name or ID.
 
-    5 VoucherBlackhole is a technology market management system programmed on Visual Studio with C # programming language. A management system that allows the shopping center based on technology to perform both user and administrator operations.
-
-In the C # project competition organized under the Visual Programming course of the Software Engineering and Computer Engineering students of Istanbul Sabahattin Zaim University, where students can participate individually or as a group, I have developed "Blackhole" by myself. This project was ranked 3rd.
-
-
+    5 Voucher
         • Verify and get the informations such as users address, credit card number, ordered products etc.
 
     6 Product Type
@@ -82,6 +78,7 @@ Software Development Environment
     • SQLITE for database
     • Programming Language: C#
     • IDE: Visual Studios 2019
+    
 Additional Description
 
     • Employee: Can perform everything on every object

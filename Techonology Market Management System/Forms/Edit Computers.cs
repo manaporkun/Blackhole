@@ -1,8 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.IO;
-using System.Windows.Forms;
-using Blackhole.Classes;
+﻿using Blackhole.Classes;
 using Technology_Market_Management_System.Classes;
 
 namespace Techonology_Market_Management_System
@@ -36,9 +32,9 @@ namespace Techonology_Market_Management_System
                     {
                         var id = int.Parse(searchID.Text.Trim());
                         byte[] img;
-                        if(_comp.GetById(id, "Computers").Rows[0][12].ToString() != "NULL")
+                        if (_comp.GetById(id, "Computers").Rows[0][12].ToString() != "NULL")
                         {
-                            
+
                             img = (byte[])(_comp.GetById(id, "Computers").Rows[0][12]);
                             if (img == null)
                             {
@@ -52,13 +48,13 @@ namespace Techonology_Market_Management_System
                             }
                         }
 
-                        
-                        CommonFunctions.GetComputerById(id, "Computers", dataGridView1, tID,tName,tPrice,tPiece,tDate,tBrand,tGPU,tCPU,tRAM,tSS,tOS);
+
+                        CommonFunctions.GetComputerById(id, "Computers", dataGridView1, tID, tName, tPrice, tPiece, tDate, tBrand, tGPU, tCPU, tRAM, tSS, tOS);
                     }
                     else if (searchID.Text.Length == 0 && searchName.Text.Length != 0)
                     {
                         var productName = searchName.Text.Trim();
-                        CommonFunctions.GetComputerByName(productName,"Computers", dataGridView1, tID, tName, tPrice, tPiece, tDate, tBrand, tGPU, tCPU, tRAM, tSS, tOS);
+                        CommonFunctions.GetComputerByName(productName, "Computers", dataGridView1, tID, tName, tPrice, tPiece, tDate, tBrand, tGPU, tCPU, tRAM, tSS, tOS);
                     }
                     else
                     {
@@ -121,7 +117,7 @@ namespace Techonology_Market_Management_System
             tSS.Text = string.Empty;
             tOS.Text = string.Empty;
             productPicture.Image = null;
-            
+
         }
 
         private void groupBox4_Enter(object sender, EventArgs e)
@@ -155,33 +151,33 @@ namespace Techonology_Market_Management_System
                 switch (s)
                 {
                     case "add":
-                    {
-                        var result = _comp.GetByName(name, "Computers");
+                        {
+                            var result = _comp.GetByName(name, "Computers");
 
-                        if (result.Rows.Count > 0)
-                        {
-                            lberror.ForeColor = Color.Red;
-                            lberror.Text = CommonFunctions.ReturnString("exist");
+                            if (result.Rows.Count > 0)
+                            {
+                                lberror.ForeColor = Color.Red;
+                                lberror.Text = CommonFunctions.ReturnString("exist");
+                            }
+
+                            else
+                            {
+                                _comp.Add(name, gpu, price, piece, date, brand, cpu, ram, ss, os);
+                                _product.AddImage(int.Parse(_product.GetByName(name, "Computers").Rows[0][0].ToString()), img, "Computers");
+                                lberror.ForeColor = Color.Green;
+                                lberror.Text = CommonFunctions.ReturnString("success");
+                            }
+
+                            break;
                         }
-                            
-                        else
-                        {
-                            _comp.Add(name, gpu, price, piece, date, brand, cpu, ram, ss, os);
-                            _product.AddImage(int.Parse(_product.GetByName(name,"Computers").Rows[0][0].ToString()),img, "Computers");
-                            lberror.ForeColor = Color.Green;
-                            lberror.Text = CommonFunctions.ReturnString("success");
-                        }
-                            
-                        break;
-                    }
                     case "update":
-                    {
-                        var id = int.Parse(tID.Text.Trim());
+                        {
+                            var id = int.Parse(tID.Text.Trim());
 
-                        _comp.Update(id, name, gpu, price, piece, date, brand, cpu, ram, ss, os);
-                        _comp.AddImage(id, img, "Computers");
-                        break;
-                    }
+                            _comp.Update(id, name, gpu, price, piece, date, brand, cpu, ram, ss, os);
+                            _comp.AddImage(id, img, "Computers");
+                            break;
+                        }
 
                 }
 

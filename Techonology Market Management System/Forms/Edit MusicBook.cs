@@ -1,8 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.IO;
-using System.Windows.Forms;
-using Blackhole.Classes;
+﻿using Blackhole.Classes;
 using Technology_Market_Management_System.Classes;
 
 namespace Techonology_Market_Management_System.Forms
@@ -78,7 +74,7 @@ namespace Techonology_Market_Management_System.Forms
                     lberror.ForeColor = Color.Green;
                     lberror.Text = CommonFunctions.ReturnString("success");
                 }
-                    
+
             }
             catch (Exception ex)
             {
@@ -115,7 +111,7 @@ namespace Techonology_Market_Management_System.Forms
                 {
                     if (searchID.Text.Length != 0 && searchName.Text.Length == 0)
                     {
-                        
+
                         var id = int.Parse(searchID.Text.Trim());
                         byte[] img;
                         if (_musicBook.GetById(id, "MusicBook").Rows[0][8].ToString() != "NULL")

@@ -1,8 +1,4 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Data.SqlClient;
-
-namespace Technology_Market_Management_System.Classes
+﻿namespace Technology_Market_Management_System.Classes
 {
     public static class DataAccess
     {

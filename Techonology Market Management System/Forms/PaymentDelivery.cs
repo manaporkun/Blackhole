@@ -1,8 +1,4 @@
 ﻿using Blackhole.Classes;
-using System;
-using System.Drawing;
-using System.Drawing.Printing;
-using System.Windows.Forms;
 using Technology_Market_Management_System.Classes;
 using Techonology_Market_Management_System.Forms;
 
@@ -79,7 +75,7 @@ namespace Techonology_Market_Management_System
 
             try
             {
-                
+
             }
             catch (Exception ex)
             {

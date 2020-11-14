@@ -1,8 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.IO;
-using System.Windows.Forms;
-using Blackhole.Classes;
+﻿using Blackhole.Classes;
 using Technology_Market_Management_System.Classes;
 
 namespace Techonology_Market_Management_System.Forms
@@ -60,7 +56,7 @@ namespace Techonology_Market_Management_System.Forms
                     if (searchID.Text.Length != 0 && searchName.Text.Length == 0)
                     {
                         var id = int.Parse(searchID.Text.Trim());
-                        CommonFunctions.GetSmartphoneById(dataGridView1,id,tID,tName,tPrice,tPiece,tDate,tBrand,tCPU,tRAM,tSS,textBox1);
+                        CommonFunctions.GetSmartphoneById(dataGridView1, id, tID, tName, tPrice, tPiece, tDate, tBrand, tCPU, tRAM, tSS, textBox1);
                     }
 
                     else if (searchID.Text.Length == 0 && searchName.Text.Length != 0)
@@ -83,12 +79,12 @@ namespace Techonology_Market_Management_System.Forms
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -139,7 +135,7 @@ namespace Techonology_Market_Management_System.Forms
                     lberror.Text = CommonFunctions.ReturnString("exist");
 
                 }
-                    
+
                 else
                 {
                     smartPhones.Add(name, price, piece, date, brand, cpu, ram, ss, screentype);
@@ -147,7 +143,7 @@ namespace Techonology_Market_Management_System.Forms
                     lberror.ForeColor = Color.Green;
                     lberror.Text = CommonFunctions.ReturnString("success");
                 }
-                    
+
             }
             catch (Exception ex)
             {
@@ -208,12 +204,12 @@ namespace Techonology_Market_Management_System.Forms
                         }
 
 
-                        CommonFunctions.GetSmartphoneById(dataGridView1, id, tID, tName, tPrice, tPiece, tDate, tBrand, tCPU, tRAM, tSS,textBox1);
+                        CommonFunctions.GetSmartphoneById(dataGridView1, id, tID, tName, tPrice, tPiece, tDate, tBrand, tCPU, tRAM, tSS, textBox1);
                     }
                     else if (searchID.Text.Length == 0 && searchName.Text.Length != 0)
                     {
                         var productName = searchName.Text.Trim();
-                        CommonFunctions.GetSmartphonebyName(dataGridView1,productName, tID, tName, tPrice, tPiece, tDate, tBrand, tCPU, tRAM, tSS,textBox1);
+                        CommonFunctions.GetSmartphonebyName(dataGridView1, productName, tID, tName, tPrice, tPiece, tDate, tBrand, tCPU, tRAM, tSS, textBox1);
                     }
                     else
                     {

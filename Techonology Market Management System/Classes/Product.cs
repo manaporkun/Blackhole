@@ -1,6 +1,4 @@
-﻿using System.Data;
-
-namespace Technology_Market_Management_System.Classes
+﻿namespace Technology_Market_Management_System.Classes
 {
     internal class Product
     {

@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Blackhole.Classes;
-using Bunifu.Framework.UI;
+﻿using Blackhole.Classes;
 using Technology_Market_Management_System.Classes;
 using Techonology_Market_Management_System;
 
@@ -56,7 +45,7 @@ namespace Blackhole.Forms
                     bunifuCustomDataGrid5.DataSource = _cc.Get(_u.GetCustomerByEmail(_mail).Rows[0][6].ToString());
                     AddButton(bunifuCustomDataGrid5);
                 }
-                
+
                 xtraTabPage1.Show();
             }
             catch (Exception ex)
@@ -73,7 +62,7 @@ namespace Blackhole.Forms
                 Text = "DELETE",
                 UseColumnTextForButtonValue = true,
                 Width = 90,
-                DefaultCellStyle = {ForeColor = Color.WhiteSmoke, BackColor = Color.DarkCyan},
+                DefaultCellStyle = { ForeColor = Color.WhiteSmoke, BackColor = Color.DarkCyan },
                 FlatStyle = FlatStyle.Flat,
                 DisplayIndex = dataGrid.Columns.Count + 1
             };
@@ -90,7 +79,7 @@ namespace Blackhole.Forms
                     bunifuCustomDataGrid1.DataSource = _order.GetByEmail(_mail);
                     AddButton(bunifuCustomDataGrid1);
                 }
-                
+
                 xtraTabPage2.Show();
             }
             catch (Exception ex)
@@ -291,7 +280,7 @@ namespace Blackhole.Forms
             {
                 bunifuCustomDataGrid2.Columns.Clear();
                 bunifuCustomDataGrid2.ReadOnly = true;
-               
+
                 _computers = new Computers();
                 if (_computers.GetShort().Rows.Count > 0)
                 {
@@ -316,7 +305,7 @@ namespace Blackhole.Forms
                     label35.Text = cpu;
 
                     byte[] img;
-                    if (_computers.GetByName(label47.Text,"Computers").Rows[0][12].ToString() != "NULL")
+                    if (_computers.GetByName(label47.Text, "Computers").Rows[0][12].ToString() != "NULL")
                     {
 
                         img = (byte[])(_computers.GetByName(label47.Text, "Computers").Rows[0][12]);
@@ -383,7 +372,7 @@ namespace Blackhole.Forms
                 }
             }
 
-            
+
         }
 
         private void GetNumberProduct(string phonenumber)
@@ -393,7 +382,7 @@ namespace Blackhole.Forms
 
             PaymentDelivery.TakeNumberProduct(_productNumber);
 
-           // added.Text = _productNumber.ToString();
+            // added.Text = _productNumber.ToString();
         }
 
         private void accordionControlElement4_Click(object sender, EventArgs e)
@@ -439,7 +428,7 @@ namespace Blackhole.Forms
             {
                 MessageBox.Show(ex.Message);
             }
-           
+
         }
 
         private void accordionControlElement5_Click(object sender, EventArgs e)

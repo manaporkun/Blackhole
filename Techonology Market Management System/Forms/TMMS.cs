@@ -1,7 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace Techonology_Market_Management_System.Forms
+﻿namespace Techonology_Market_Management_System.Forms
 {
     public partial class TMMS : Form
     {

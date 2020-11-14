@@ -1,8 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.IO;
-using System.Windows.Forms;
-using Blackhole.Classes;
+﻿using Blackhole.Classes;
 using Technology_Market_Management_System.Classes;
 using Techonology_Market_Management_System.Forms;
 
@@ -138,11 +134,11 @@ namespace Techonology_Market_Management_System
                 lbError.ForeColor = Color.Red;
                 lbError.Text = "Please add a picture.";
             }
-            
 
-            
 
-            
+
+
+
         }
 
         private void label11_Click(object sender, EventArgs e)

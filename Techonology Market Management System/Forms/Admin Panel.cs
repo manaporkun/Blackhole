@@ -1,6 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
-using Blackhole.Forms;
+﻿using Blackhole.Forms;
 using Techonology_Market_Management_System.Forms;
 
 namespace Techonology_Market_Management_System
@@ -21,7 +19,7 @@ namespace Techonology_Market_Management_System
 
         private void Admin_Panel_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

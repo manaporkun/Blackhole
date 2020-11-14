@@ -1,15 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.IO;
-using System.Windows.Forms;
-using Blackhole.Classes;
+﻿using Blackhole.Classes;
 using Blackhole.Forms;
-using Blackhole.Properties;
-using Bunifu.Framework.UI;
 using Technology_Market_Management_System.Classes;
-using Techonology_Market_Management_System;
-using Techonology_Market_Management_System.Forms;
 
 namespace Techonology_Market_Management_System.Forms
 {
@@ -76,7 +67,7 @@ namespace Techonology_Market_Management_System.Forms
                 Text = text,
                 UseColumnTextForButtonValue = true,
                 Width = 90,
-                DefaultCellStyle = {ForeColor = Color.DarkCyan, BackColor = Color.White},
+                DefaultCellStyle = { ForeColor = Color.DarkCyan, BackColor = Color.White },
                 FlatStyle = FlatStyle.Flat,
                 DisplayIndex = dataGrid.Columns.Count + 1
             };
@@ -99,7 +90,7 @@ namespace Techonology_Market_Management_System.Forms
             {
                 if (_u.GetCustomerByEmail(_beforeMail).Rows[0][11].ToString() != "NULL")
                 {
-                    var img = (byte[]) (_u.GetCustomerByEmail(_beforeMail).Rows[0][11]);
+                    var img = (byte[])(_u.GetCustomerByEmail(_beforeMail).Rows[0][11]);
                     if (img == null)
                     {
                         userPicture.Image = null;
@@ -136,7 +127,7 @@ namespace Techonology_Market_Management_System.Forms
                 if (_order.GetById(_id).Rows.Count > 0)
                 {
                     bunifuCustomDataGrid1.DataSource = _order.GetById(_id);
-                   // AddButton(bunifuCustomDataGrid1, "Show");
+                    // AddButton(bunifuCustomDataGrid1, "Show");
                 }
 
                 xtraTabPage2.Show();
@@ -211,7 +202,7 @@ namespace Techonology_Market_Management_System.Forms
                     if (_computers.GetByName(label47.Text, "Computers").Rows[0][12].ToString() != "NULL")
                     {
 
-                        img = (byte[]) (_computers.GetByName(label47.Text, "Computers").Rows[0][12]);
+                        img = (byte[])(_computers.GetByName(label47.Text, "Computers").Rows[0][12]);
                         if (img == null)
                         {
                             pictureBox17.Image = null;
@@ -256,7 +247,7 @@ namespace Techonology_Market_Management_System.Forms
                     if (_phones.GetByName(label22.Text, "SmartPhones").Rows[0][10].ToString() != "NULL")
                     {
 
-                        img = (byte[]) (_phones.GetByName(label22.Text, "SmartPhones").Rows[0][10]);
+                        img = (byte[])(_phones.GetByName(label22.Text, "SmartPhones").Rows[0][10]);
                         if (img == null)
                         {
                             pictureBox18.Image = null;
@@ -298,7 +289,7 @@ namespace Techonology_Market_Management_System.Forms
                     if (_book.GetByName(label24.Text, "MusicBook").Rows[0][8].ToString() != "NULL")
                     {
 
-                        img = (byte[]) (_book.GetByName(label24.Text, "MusicBook").Rows[0][8]);
+                        img = (byte[])(_book.GetByName(label24.Text, "MusicBook").Rows[0][8]);
                         if (img == null)
                         {
                             pictureBox19.Image = null;
@@ -427,7 +418,7 @@ namespace Techonology_Market_Management_System.Forms
                 _u.UpdateAdmin(id, name, surname, email, password, address, gender, phoneNumber, dob);
                 var imgCon = new ImageConverter();
 
-                _u.AddImage(id, (byte[]) imgCon.ConvertTo(userPicture.Image, typeof(byte[])), "Customer");
+                _u.AddImage(id, (byte[])imgCon.ConvertTo(userPicture.Image, typeof(byte[])), "Customer");
 
             }
             catch (Exception ex)
@@ -457,7 +448,7 @@ namespace Techonology_Market_Management_System.Forms
 
         private void simpleButton6_Click(object sender, EventArgs e)
         {
-            
+
             var name = label47.Text;
             var phonenumber = _u.GetCustomerByEmail(_beforeMail).Rows[0][6].ToString();
             var price = int.Parse(label36.Text);
@@ -517,7 +508,7 @@ namespace Techonology_Market_Management_System.Forms
 
                 byte[] img;
                 if (_computers.GetByName(label47.Text, "Computers").Rows[0][12].ToString() == "NULL") return;
-                img = (byte[]) (_computers.GetByName(label47.Text, "Computers").Rows[0][12]);
+                img = (byte[])(_computers.GetByName(label47.Text, "Computers").Rows[0][12]);
                 if (img == null)
                 {
                     pictureBox17.Image = null;
@@ -557,7 +548,7 @@ namespace Techonology_Market_Management_System.Forms
                     if (_phones.GetByName(label22.Text, "SmartPhones").Rows[0][10].ToString() != "NULL")
                     {
 
-                        img = (byte[]) (_phones.GetByName(label22.Text, "SmartPhones").Rows[0][10]);
+                        img = (byte[])(_phones.GetByName(label22.Text, "SmartPhones").Rows[0][10]);
                         if (img == null)
                         {
                             pictureBox18.Image = null;
@@ -595,7 +586,7 @@ namespace Techonology_Market_Management_System.Forms
                     if (_book.GetByName(label24.Text, "MusicBook").Rows[0][8].ToString() != "NULL")
                     {
 
-                        img = (byte[]) (_book.GetByName(label24.Text, "MusicBook").Rows[0][8]);
+                        img = (byte[])(_book.GetByName(label24.Text, "MusicBook").Rows[0][8]);
                         if (img == null)
                         {
                             pictureBox19.Image = null;

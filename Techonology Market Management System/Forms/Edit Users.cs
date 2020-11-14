@@ -1,10 +1,5 @@
-﻿using System;
-using System.Windows.Forms;
-using System.Drawing;
-using System.IO;
-using Blackhole.Classes;
+﻿using Blackhole.Classes;
 using Technology_Market_Management_System.Classes;
-using Techonology_Market_Management_System.Classes;
 
 //using Technology_Market_Management_System;
 
@@ -41,7 +36,7 @@ namespace Techonology_Market_Management_System.Forms
             {
                 var id = int.Parse(textBox1.Text.Trim());
 
-                if (_u.GetById(id,"Customer").Rows.Count < 1)
+                if (_u.GetById(id, "Customer").Rows.Count < 1)
                 {
                     MessageBox.Show("There is no user with ID: " + id);
                 }
@@ -78,7 +73,7 @@ namespace Techonology_Market_Management_System.Forms
                     else
                         rbFemale.Checked = true;
                 }
-                
+
             }
             catch (Exception ex)
             {
@@ -108,7 +103,7 @@ namespace Techonology_Market_Management_System.Forms
 
                 _u.UpdateAdmin(id, name, surname, email, passw, address, gender, phoneNumber, dob);
                 var imgCon = new ImageConverter();
-                
+
                 _u.AddImage(id, (byte[])imgCon.ConvertTo(userPicture.Image, typeof(byte[])), "Customer");
                 dataGridView1.DataSource = _u.Get("Customer");
             }

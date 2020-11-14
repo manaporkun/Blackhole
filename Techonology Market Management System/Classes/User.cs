@@ -1,5 +1,4 @@
-﻿using System.Data;
-using Techonology_Market_Management_System.Classes;
+﻿using Techonology_Market_Management_System.Classes;
 
 namespace Technology_Market_Management_System.Classes
 {
@@ -59,7 +58,7 @@ namespace Technology_Market_Management_System.Classes
         public static int UpdateSavedInformations(string email, string password)
         {
             var query = string.Format(
-                "update SavedInformations set Email = '{0}'," + "Password = '{1}' "+ "where ID = 'False'", email,password);
+                "update SavedInformations set Email = '{0}'," + "Password = '{1}' " + "where ID = 'False'", email, password);
             return DataAccess.ExecuteNonQuery(query);
         }
 

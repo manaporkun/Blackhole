@@ -1,6 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
-using Blackhole.Classes;
+﻿using Blackhole.Classes;
 using Technology_Market_Management_System.Classes;
 using Techonology_Market_Management_System;
 
@@ -12,7 +10,7 @@ namespace Blackhole.Forms
     {
         private bool _condition = true;
         private readonly Employee _employee = new Employee();
-        private  AdminPanel _adminPanel;
+        private AdminPanel _adminPanel;
 
         public EditEmployees()
         {
@@ -132,7 +130,7 @@ namespace Blackhole.Forms
                         break;
                 }
 
-                
+
                 dataGridView1.DataSource = _employee.Get("Employee");
             }
             catch (Exception ex)

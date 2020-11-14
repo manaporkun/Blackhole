@@ -1,15 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Blackhole.Classes;
-using Technology_Market_Management_System.Classes;
+﻿using Blackhole.Classes;
 using Techonology_Market_Management_System.Forms;
 
 namespace Blackhole.Forms
@@ -28,7 +17,7 @@ namespace Blackhole.Forms
         private void UserProfile_Load(object sender, EventArgs e)
         {
             lbError.Text = string.Empty;
-            CommonFunctions.SetUserDetails(_email,tName,tSurname,tEmail,tPassword,tAdress,maskedTextBox1,dateTimePicker1,rbMale,rbFemale);
+            CommonFunctions.SetUserDetails(_email, tName, tSurname, tEmail, tPassword, tAdress, maskedTextBox1, dateTimePicker1, rbMale, rbFemale);
         }
 
         public void TakeEmail(string e)

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.Windows.Forms;
-using Technology_Market_Management_System.Classes;
+﻿using Technology_Market_Management_System.Classes;
 
 namespace Techonology_Market_Management_System.Forms
 {

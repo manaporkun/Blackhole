@@ -1,7 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.Windows.Forms;
-using Blackhole.Classes;
+﻿using Blackhole.Classes;
 using Technology_Market_Management_System.Classes;
 
 namespace Techonology_Market_Management_System.Forms
@@ -148,7 +145,7 @@ namespace Techonology_Market_Management_System.Forms
                             cc.Delete(phonenumber, name);
                             order.Delete(userId, name);
                         }
-                            
+
                     }
 
                     Payment_Load(sender, e);

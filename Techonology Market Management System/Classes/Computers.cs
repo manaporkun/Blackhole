@@ -1,6 +1,4 @@
-﻿using System.Data;
-
-namespace Technology_Market_Management_System.Classes
+﻿namespace Technology_Market_Management_System.Classes
 {
     internal class Computers : Product
     {
@@ -41,6 +39,6 @@ namespace Technology_Market_Management_System.Classes
             return DataAccess.ExecuteQuery(query);
         }
 
-        
+
     }
 }

@@ -1,7 +1,4 @@
 ﻿using Blackhole.Properties;
-using System;
-using System.Drawing;
-using System.Windows.Forms;
 using Technology_Market_Management_System.Classes;
 
 namespace Techonology_Market_Management_System.Forms
@@ -118,7 +115,7 @@ namespace Techonology_Market_Management_System.Forms
                 Text = "SELECT",
                 UseColumnTextForButtonValue = true,
                 Width = 120,
-                DefaultCellStyle = {ForeColor = Color.WhiteSmoke, BackColor = Color.DarkCyan},
+                DefaultCellStyle = { ForeColor = Color.WhiteSmoke, BackColor = Color.DarkCyan },
                 FlatStyle = FlatStyle.Flat,
                 DisplayIndex = dataGridView1.Columns.Count + 1
             };

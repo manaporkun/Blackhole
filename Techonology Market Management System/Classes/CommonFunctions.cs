@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Technology_Market_Management_System.Classes;
+﻿using Technology_Market_Management_System.Classes;
 
 namespace Blackhole.Classes
 {
@@ -13,7 +7,7 @@ namespace Blackhole.Classes
         private static readonly User _user = new User();
         private static readonly Product _product = new Product();
 
-        public static void SetUserDetails(string _email,TextBox name, TextBox surname, TextBox email, TextBox password, TextBox address, MaskedTextBox phone, DateTimePicker time, RadioButton male, RadioButton female)
+        public static void SetUserDetails(string _email, TextBox name, TextBox surname, TextBox email, TextBox password, TextBox address, MaskedTextBox phone, DateTimePicker time, RadioButton male, RadioButton female)
         {
             try
             {
@@ -35,7 +29,7 @@ namespace Blackhole.Classes
             {
                 MessageBox.Show(ex.Message);
             }
-            
+
         }
 
         public static void GetEmail(string originalEmail, string copyEmail)
@@ -43,7 +37,7 @@ namespace Blackhole.Classes
             copyEmail = originalEmail;
         }
 
-        public static void GetComputerById(int id, string category, DataGridView list, TextBox tID, 
+        public static void GetComputerById(int id, string category, DataGridView list, TextBox tID,
             TextBox tName, TextBox tPrice, TextBox tPiece, TextBox tDate, TextBox tBrand, TextBox tGPU, TextBox tCPU, TextBox tRAM, TextBox tSS, TextBox tOS)
         {
             list.DataSource = _product.GetById(id, category);
@@ -102,7 +96,7 @@ namespace Blackhole.Classes
                 default:
                     return string.Empty;
             }
-            
+
         }
 
         public static bool ChangePasswordChar(bool condition, TextBox tPassword)
@@ -151,8 +145,8 @@ namespace Blackhole.Classes
             tAuthor.Text = _product.GetByName(name, "MusicBook").Rows[0][7].ToString();
         }
 
-        public static void GetSmartphoneById(DataGridView dataGridView1, int id, TextBox tID, TextBox tName, TextBox tPrice,TextBox tPiece,
-            TextBox tDate,TextBox tBrand,TextBox tCPU, TextBox tRAM, TextBox tSS, TextBox textBox1)
+        public static void GetSmartphoneById(DataGridView dataGridView1, int id, TextBox tID, TextBox tName, TextBox tPrice, TextBox tPiece,
+            TextBox tDate, TextBox tBrand, TextBox tCPU, TextBox tRAM, TextBox tSS, TextBox textBox1)
         {
             dataGridView1.DataSource = _product.GetById(id, "SmartPhones");
             tID.Text = _product.GetById(id, "SmartPhones").Rows[0][0]

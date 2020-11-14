@@ -1,7 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.Windows.Forms;
-using Blackhole.Forms;
+﻿using Blackhole.Forms;
 using Technology_Market_Management_System.Classes;
 using Techonology_Market_Management_System.Forms;
 
@@ -29,7 +26,7 @@ namespace Techonology_Market_Management_System
 
         private void bLogin_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void buttonRegister_Click(object sender, EventArgs e)

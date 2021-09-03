@@ -88,20 +88,20 @@ Additional Description
 <details>
   <summary>Screenshots</summary>
 
-![](ss1.png)
-![](ss2.png)
-![](ss3.png)
-![](ss4.png)
-![](ss5.png)
-![](ss6.png)
-![](ss7.png)
-![](ss8.png)
-![](ss9.png)
-![](ss10.png)
-![](ss11.png)
-![](ss12.png)
-![](ss13.png)
-![](compare.png)
+![](/Screenshots/ss1.png)
+![](/Screenshots/ss2.png)
+![](/Screenshots/ss3.png)
+![](/Screenshots/ss4.png)
+![](/Screenshots/ss5.png)
+![](/Screenshots/ss6.png)
+![](/Screenshots/ss7.png)
+![](/Screenshots/ss8.png)
+![](/Screenshots/ss9.png)
+![](/Screenshots/ss10.png)
+![](/Screenshots/ss11.png)
+![](/Screenshots/ss12.png)
+![](/Screenshots/ss13.png)
+![](/Screenshots/compare.png)
 
 </details>
 
